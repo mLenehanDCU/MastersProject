@@ -1,0 +1,168 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[dutch]{babel}
+\usepackage{amsmath, amssymb}
+
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+\section{Interesting Projects}
+\subsection{Anomaly Detection in CCTV Video - K.McGuiness}
+
+Modern CCTV systems are essential for the security and monitoring of many public
+and commercial interests. These systems have become so ubiquitous that monitoring
+by human operators is becoming impractical and expensive. Often CCTV control rooms
+contain hundreds of cameras monitored by a small number of staff.  The majority of
+the video captured by CCTV systems is simply routine, containing no anomalous activity
+that is worth attending to. Some modern systems include built-in visual motion
+sensing that alerts operators only when the camera detects movement. Unfortunately,
+such systems are prone to false-alarms caused by noise and unimportant environmental
+movement. These systems are also not suitable in environments where there is
+routine but unimportant activity.
+
+This project will investigate the use of tools from computer vision and machine
+learning to better detect and localize anomalies in CCTV video data. The
+student will use the recently released MERL StreetScene video anomaly dataset
+to develop and test the accuracy of the solutions investigated. Approaches from
+the recent state-of-the-art will be implemented and tested on this dataset and
+compared with the baseline proposed by the dataset creators. The evaluation will
+consider both the accuracy of the method and the computational complexity and
+feasibility of deployment on edge-compute devices.
+
+\subsection{GPGPU acceleration of Electromagnetic Wave scattering computational
+codes - C. Brennan}
+
+General purpose graphics processing units (GPGPUs) are becoming increasingly popular as a, relatively, cheap way of developing a parallel processing computing capability. In this project the student shall modify C++ and Matlab code developed to model electromagnetic wave propagation so as to enable it to run on a CUDA-enabled GPU server.  The code shall be provided by the project supervisor. The project shall investigate the level of computational speed up that can be attained by
+the successful use of parallel computation and compare it to what is theoretically available.
+
+\subsection{Position Estimation of 802.11 radios within an indoor environment -
+C. Brennan}
+
+GPS technology has transformed our lives, embedding the concept of location-based services at the heart of our social and economic activities. However, GPS signals cannot penetrate indoors and the problem of locating and tracking users indoors remains extremely problematic.
+
+This project shall examine the feasibility of locating wireless users based on signal strength information. Signal strength information by itself is a relatively poor measure of relative position as signal strengths can vary due to many factors. However the accuracy can be improved by using suitably calibrated path loss models.
+
+The student shall use RSSI (Received Signal Strength Indicator) information obtained from Pycom 802.11 radios (pycom.io) and use the RSSI between each pair of devices to approximately locate their relative position within an environment.
+
+\subsection{Indoor path loss modelling for 802.15.4 radios - C. Brennan}
+
+    A knowledge of how radio signals propagate in indoor environments is critical to the proper planning of IoT networks.
+
+    This project will implement and validate commonly available indoor path loss models for radios operating at 802.15.4 frequencies (specifically 868MHz and 2.4GHz) with a view to establishing simple rules of thumb regarding maximum achievable range. Factors such as antenna type (replacing the on-board antenna with an external antenna), antenna orientation, and placement in the vicinity of scatterers (i.e. stuck to walls, doors, radiators) will be examined.
+
+    The student will write simple codes to predict power levels and validate them (and parameterise them as necessary) versus measured data obtained from 802.15.4 devices such as the Texas Instruments TI CC1352.
+
+\subsection{A comparative evaluation of self-supervised representation learning
+for image retrieval - K. McGuiness}
+
+Most existing state-of-the-art computer vision methods depend upon strongly supervised deep learning, which requires datasets with millions of hand-annotated images. While such datasets have been available to researchers for some time (e.g. ImageNet), devising methods to learn effective representations with little or no explicit labels is an active research area. The most recent methods use so-called “self-supervised” learning in which explicit the labels are derived from the content without requiring human annotation. For example, Gidaris et al. show that having a neural network predict the correct orientation of images rotated by multiples of 90 degrees produce representations that are useful in classification tasks.
+
+This project will focus on evaluating the effectiveness of the representations learned by various self-supervised approaches specifically in image retrieval (similarity search) tasks. The student will select a representative sample of the recent state-of-the-art in self supervised learning and apply the corresponding learned feature functions to images from retrieval benchmark datasets like Oxford5k, Paris5k, and INSTRE. These will be used in conjunction with a standard image retrieval pipeline to estimate the effectiveness of the features by comparing mean average precision across different representations. The goal of the project will be to establish which self-supervised techniques are most effective for content-based image retrieval and understand the gap between current state-of-the-art is and strongly supervised methods.
+
+\subsection{Design and Optimisation of Passive Near-Field Communications (NFC)
+System - C. McArdle}
+
+Environmental sensors and body-area sensors provide critical health and safety information in many application environments. The aim of this project is to develop a passive Near Field Communication (NFC) sensor which can be permanently installed in locations without power supply or network connection and then read periodically via an NFC transceivers or an NFC-enabled smartphone. The project will involve designing an NFC 13MHz magnetic coupling system, communications receiver and power circuit and a very low-power microcontroller+sensor hardware/software system,  smartphone user-interface and NFC communications protocol software. The project will research and apply state-of-the-art power-scavenging/energy-harvesting techniques in order to maximise available sensor power. This project requires practical electronics skills.
+
+\subsection{An evaluation of Distributed Denial of Service (DDoS) attacks in IoT
+networks - L. Meany}
+
+Hackers who engage in Distributed Denial of Service attacks (DDoS) use multiple systems to flood a network with traffic such as to restrict or shutdown normal network operation. The result is usually limited or denied access to various resources such as servers, IoT devices networks and applications. Full featured operating Systems (OS) have various tools and resources at their disposal in combating these types of attacks. However, in the IoT world these resources are often limited or not even available.
+
+This project will use open source software tools to evaluate IoT operating systems, networks and devices to gain an understanding as to how susceptible IoT networks are to various types of botnet attacks. It will then make informed recommendations on detection and mitigation solutions.
+
+\subsection{ECG-derived respiration information - N. Murphy}
+
+The Internet of Personal Things is where the Internet meets sensory-data acquisition from the person, and it is clear that this application will become increasingly important as a means for monitoring wellness, healthy lifestyles as well as illness. Respiration plays a central role in the peripheral autonomic system. The rhythm of breathing can be found in fluctuations of blood pressure, vascular resistance, pupil diameter and short term heart rate variability.
+Thus, accessing respiratory activity may help in investigating changes found in other physiological subsystems of the body.
+Respiratory rhythm in particular is a vital parameter used to detect pathological changes of breathing.
+We wish to measure two aspects of respiration: the frequency (or rate) of breaths and their depth (or amplitude)
+Unlike the heart, the lungs do not generate electrical signals which can easily be detected. Indirect effects on the cardiovascular system can, however, be used to reconstruct respiratory signals, and respiration has been successfully extracted from the ECG, blood pressure or photoplethysmogram. The ECG-derived respiratory (EDR) signal is a consequence of the direct influence of breathing on ECG morphology and the variation of heart rate. The aim of this project is to derive improved respiration information from long-sequence ECG waveforms using signal processing and machine learning techniques and to compare this with more conventional plethysmography (measuring organ volume) approaches.
+
+\subsection{Physical Unclonable Functions (PUFs) in the Internet of Things (IoT)
+- L. Meany}
+
+Internet of Things (IoT) based devices are constrained by the limited availability of energy and computational resources. Physical Unclonable Functions (PUFs) have been proposed as a lightweight and energy efficient solution to this problem through utilisation of unique IoT device footprints. It proposes to achieve secure authentication without the need for cryptography, making it very attractive for IoT devices.
+
+This project will evaluate the security strengths and weaknesses of currently proposed IoT PUF architectures and protocols which will in turn inform this new and research active area.
+
+\subsection{(Shirley Coyle) Cuffless Wearable Blood Pressure Monitoring -
+N.Murphy}
+
+Blood pressure is one of the most important clinical measurements used daily in doctor’s surgeries and hospitals for assessing a range of conditions and overall health. Blood pressure fluctuates over the course of the day, and is affected by factors such as physical exertion, stress, pain, or extreme heat or cold. Wearable continuous blood pressure measurements would give clinicians a true measurement of their patients’ blood pressure levels over time, and also identify situations that are causing large increases in their blood pressure. There are a number of home monitoring inflatable cuff measurement devices which are currently the only FDA approved monitoring devices. However, these are inconvenient and uncomfortable to use. This project will investigate the use of optical measurements of the pulse transit time (PTT). PTT refers to the time required for the pulse to travel between two arterial sites. An optical subsystem such as the ADPD174 from Analog Devices will be used to collect pulse plethysmography(PPG) signals. This device will need to be integrated into a wearable system to collect data from several body locations. The approach will be validated against a gold standard device which measures at the upper arm in line with the heart. (This project will be supervised by Dr Shirley Coyle)
+
+\subsection{Ultra-low Power Motion Detection for Long Range IoT Communications -
+D. Molloy}
+
+This project aims to develop a sensor design, embedded system architecture and associated embedded systems algorithms to create a sensor for motion detection (e.g., human and/or sensor movement) that can send data over low power long rang communication frameworks, such as LoRa (Long Range). Importantly, the overall design must aim to conserve battery power while trading off with sensing flexibility, which will involve taking advantage of the sleep/wake, beaconing and low-power sensing capabilities of very recent embedded SoCs. The architecture should be implemented on a real-time operating system, such as TI-RTOS/Contiki/Zepher. A full testing framework should be designed and performed on the architecture design to determine the power performance and limitations of the design.
+
+\subsection{Investigating the potential role of small scale electricity storage
+systems - B. McMullin}
+
+Due to the problems of intermittency of wind and solar energy sources, high levels of penetration of such sources will be facilitated by provision of electricity storage systems. Small scale "home" electricity storage systems, such as the Tesla Powerwall, are being promoted as a way for domestic electricity users to contribute to addressing this challenge. This project will explore the technical issues involved in integrating such battery storage systems with the grid, including prototyping the design of a suitable control system (using a Raspberry Pi or similar platform).
+
+\subsection{Impact of Mobility on Distributed Database Management for P2P
+networks over Wireless Mesh Networks - J. McManis}
+
+The chord protocol has been put forward as advantageous for database management in the
+Internet.  However, it is not location aware, and hence does not account for the number of hops over which a message travels.  In wireless networks, this is not desirable, as the more hops the more likelihood of error.  A location aware variant for wireless mesh networks has
+been proposed under the assumption that the wireless nodes are in fixed positions.  The purpose of this project is to modify the algorithm to account for mobility of nodes, and explore the algorithm’s impact on performance.
+
+\subsection{(Shirley Coyle) RFID Textile tags for temperature and humidity
+measurements - N. Murphy}
+
+RFID (radiofrequency identification) tags are a low cost widely used approach in tracking objects. Passive RFID technology has been identified as an energy efficient and versatile wireless technology for future wireless body area networks. The physical form of the devices, typically as flexible labels, makes them suitable for integration into clothing. Passive RFID tags outfitted with a simple antenna and memory chip do not need a battery and are powered by a remote reader. RFID sensors can be created by manipulating the antenna so that changes in the properties of the antenna affect the backscattered RF signal. The antennas may be created using electrically conductive textiles. This project will investigate the use of RFID sensors to measure humidity and temperature of the skin surface. Humidity measurements can be correlated to sweat loss, which is important for athletic performance and also clinical assessment e.g. hydration levels in elderly patients. (This project will be  supervised by Dr Shirley Coyle).
+
+\subsection{ (Shirley Coyle) Energy Harvesting for IoT devices - N. Murphy}
+One of the great challenges of wearable sensors is the power requirements and battery size. To address this issue and also to create more sustainable systems energy harvesting techniques are needed. In a wearable system energy may be harvested from mechanical sources (e.g., strain, displacements), thermal gradients, or incident light (photovoltaics). This project will investigate the use of piezoelectric materials to harvest kinetic energy from the movement of the body and also from the external environment such as the force exerted by rain and wind. In addition to integration of piezoelectric generators this project will require hardware design of an energy harvesting circuit and battery storage. The power generated may be used to store power to charge a wearable device, or provide feedback on the wearer’s activity level and environmental conditions. (This project will be supervised by Dr Shirley Coyle)
+
+\subsection{An Elastic IoT Device Management Platform - M. Liu}
+IoT devices are becoming very prevalent at this stage. However, the functional level of these devices is quite different, ranging from low-level temperature/humidity sensors to more advanced fire detection sensors as well as high-resolution camera sensors with wireless signal transmission functions.
+
+With an increasing level of these IoT devices installed in modern smart buildings, it becomes very challenging to manage these devices jointly in an elastic manner, especially with an expectation that the dynamics of sensors can be monitored and controlled while also providing useful information to a system operator with minimum effort required.
+
+In this project, we are going to build an elastic IoT device management platform (i.e. a testbed) so that the devices can be easily defined, modified, and tracked on the platform. The platform will also be used to collect, monitor and process data flows from the devices for further cloud storage and computing.
+
+\subsection{Embedded Device Machine Learning for Anomaly Detection - D. Molloy}
+Edge computing in IoT improves local autonomy, improves safety, helps with privacy concerns and can help reduce decision latency. Unfortunately, embedded devices often do not have the performance necessary to make decisions locally. This project aims to investigate very recent MPSoC platforms, such as the BeagleBone AI (artificial intelligence), that contain DSP and EVE cores, which can be used for local machine learning decision support. The project will develop use case anomaly detection applications for single- and multi-dimensional data sets and will evaluate the suitability of such hardware platforms as edge-based ML processors. A full testing framework should be designed and performed on the architecture design to determine the power performance and limitations of the design.
+
+\subsection{High Performance and Accurate Indoor Localisation using Ultra Wide
+Band (UWB) Frameworks - D. Molloy}
+
+
+Outdoor positioning is typically performed using GPS at relatively low update rates, and is not suitable for indoor applications. Ultra-wide band (UWB) technology can be used to very accurately measure the time of flight of a radio signal, allowing for
+high accuracy real-time line of sight positioning in an indoor environment that has been instrumented with pre-defined anchor points. This project aims to examine emerging UWB sensors (from companies such as Decawave) to determine their suitability for real-time high sample rate but low-powered embedded applications, such as those required to track athletes who are performing intensive exercises. The project requires the design of a UWB tag with an associated embedded system that can be used for real time analysis. A test environment will have to be instrumented and tests will have to be designed that evaluate
+the real-time and application-specific performance of the device that is designed (including, energy consumption, sensor placement, and tracking accuracy).
+
+\subsection{RFID Sniffing using the Proxmark III - L. Meany}
+RFID cards continue to be widely used in the world of IoT from such areas as financial transactions to access control. As a result of this, their security vulnerabilities require close scrutiny to reassure the public and to also to inform security experts.
+
+This project will use freely available software tools to evaluate the security vulnerabilities of one of the most commonly used RFID cards i.e. the MIFARE Desfire EV1/2. These cards require an authentication key for reading and this project will examine the communication between the card and the reader in order to evaluate access to this key and expose any weaknesses.
+
+\subsection{Computationally efficient models for visual saliency prediction - K.
+McGuiness}
+Experiments with eyetrackers have shown that human beings are remarkably consistent in where they direct their attention when shown an image. The regions of an image where humans direct their attention are called salient regions. Computational models of human visual attention aim to predict how salient each part of the image is. These models have many useful applications, including improving the performance of subsequent stages in an image processing pipeline. Existing state-of-the-art models for human visual attention are based on deep convolutional neural networks. Unfortunately, these models tend to be relatively computationally expensive to evaluate, which limits their usefulness in downstream applications.
+
+This project will require the student to investigate possibilities for reducing the computational demands of visual saliency models while maintaining sufficiently high levels of accuracy for practical applications. There are several potential solutions that can be investigated, including neural architecture search, depthwise separable convolutions, knowledge distillation, and network pruning. Standard saliency datasets (MIT300, SALICON) will be provided for training and evaluation.
+
+\subsection{Deep learning based computer-aided diagnosis of ACL injury from knee
+MRI imagery - K. McGuiness}
+Magnetic Resonance Imaging (MRI) is a common technique for diagnosis of knee injury. The results of scans are typically interpreted by radiologists, a process that is time-consuming and may be prone to error. Computer-aided diagnosis has the potential to both reduce error by providing experts with additional guidance, and to perform prioritization and pre-filtering of patients based on the estimated seriousness of the condition.
+
+This project will focus on using deep learning techniques to detect the presence or absence of knee injury from MRI scans. The student will use the recently released annotated dataset from the Stanford machine learning group to develop, train, and test the model. A baseline will first be developed based on existing state-of-the-art, and then various techniques will be tested on a validation set in an attempt to improve the model. The best model will be submitted to the MRNet competition for evaluation and benchmarking.
+\end{document}

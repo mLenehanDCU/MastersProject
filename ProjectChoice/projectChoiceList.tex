@@ -1,0 +1,55 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[dutch]{babel}
+\usepackage{amsmath, amssymb}
+
+
+% figure support
+\usepackage{import}
+\usepackage{xifthen}
+\pdfminorversion=7
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+\pdfsuppresswarningpagegroup=1
+
+\begin{document}
+\section{List (Unordered)}
+\begin{enumerate}
+	\item Anomaly Detection in CCTV Video - K. McGuiness
+	\item A comparative evaluation of self-supervised representation
+		learning for image retrieval - K. McGuiness
+	\item Computationally efficient models for visual saliency prediction -
+		K. McGuiness
+	\item Deep learning based computer-aided diagnosis of ACL injury from
+		knee MRI imagery
+	\item Position Estimation of 802.11 radios within an indoor environment
+		- C. Brennan
+	\item An evaluation of DDoS attacks in IoT networks - L. Meany
+	\item Physical Unclonable Functions in the Internet of Things - L. Meany
+	\item Embedded Device Machine Learning for Anomaly Detection - D. Molloy
+\end{enumerate}
+
+\section{List 8 (Ordered)}
+\begin{enumerate}
+	\item Anomaly Detection in CCTV Video - K. McGuiness
+	\item Computationally efficient models for visual saliency prediction -
+		K. McGuiness
+	\item Embedded Device Machine Learning for Anomaly Detection
+	\item An evaluation of DDoS attacks in IoT networks - L. Meany
+	\item A comparative evaluation of self-supervised representation
+		learning for image retrieval - K. McGuiness
+	\item Deep learning based computer-aided diagnosis of ACL injury from
+		knee MRI imagery
+	\item Physical Unclonable Functions in the Internet of Things - L. Meany
+	\item Position Estimation of 802.11 radios within an indoor environment
+		- C. Brennan
+\end{enumerate}
+\end{document}
