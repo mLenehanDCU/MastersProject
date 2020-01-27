@@ -359,6 +359,8 @@ INPUT review/iotAlgorithm.tex
 INPUT review/iotAlgorithm.tex
 INPUT relation/relation.tex
 INPUT relation/relation.tex
+INPUT conclusion/conclusion.tex
+INPUT conclusion/conclusion.tex
 INPUT LitReview.aux
 INPUT ./LitReview.out
 INPUT ./LitReview.out
