@@ -321,6 +321,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT review/review.tex
 INPUT review/review.tex
+INPUT review/salimSurvey.tex
+INPUT review/salimSurvey.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
@@ -349,6 +351,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT images/salimDefenseDiagram.png
 INPUT ./images/salimDefenseDiagram.png
 INPUT ./images/salimDefenseDiagram.png
+INPUT review/iiotFramework.tex
+INPUT review/iiotFramework.tex
+INPUT review/iomtSecurity.tex
+INPUT review/iomtSecurity.tex
+INPUT review/iotAlgorithm.tex
+INPUT review/iotAlgorithm.tex
 INPUT LitReview.aux
 INPUT ./LitReview.out
 INPUT ./LitReview.out

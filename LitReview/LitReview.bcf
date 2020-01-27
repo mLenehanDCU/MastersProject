@@ -2005,6 +2005,8 @@
     <bcf:citekey order="7">Salim2019</bcf:citekey>
     <bcf:citekey order="8">Salim2019</bcf:citekey>
     <bcf:citekey order="9">Salim2019</bcf:citekey>
+    <bcf:citekey order="10">Salim2019</bcf:citekey>
+    <bcf:citekey order="11">iiot_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
