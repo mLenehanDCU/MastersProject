@@ -2009,6 +2009,9 @@
     <bcf:citekey order="11">iiot_2019</bcf:citekey>
     <bcf:citekey order="12">iomt_2019</bcf:citekey>
     <bcf:citekey order="13">iotalgorithm</bcf:citekey>
+    <bcf:citekey order="14">Salim2019</bcf:citekey>
+    <bcf:citekey order="15">iiot_2019</bcf:citekey>
+    <bcf:citekey order="16">iomt_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
