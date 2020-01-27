@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.2)  27 JAN 2020 00:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.2)  27 JAN 2020 02:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1037,13 +1037,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-) (./review/review.tex (./review/salimSurvey.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-<images/salimDefenseDiagram.png, id=101, 527.85442pt x 618.54617pt>
+] (./review/review.tex (./review/salimSurvey.tex
+<images/salimDefenseDiagram.png, id=100, 527.85442pt x 618.54617pt>
 File: images/salimDefenseDiagram.png Graphic file (type png)
 <use images/salimDefenseDiagram.png>
 Package pdftex.def Info: images/salimDefenseDiagram.png  used on input line 8.
@@ -1053,9 +1050,11 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-) (./review/iiotFramework.tex [2 <./images/salimDefenseDiagram.png (PNG copy)>]) (./review/iomtSecurity.tex) (./review/iotAlgorithm.tex))
+) (./review/iiotFramework.tex [2 <./images/salimDefenseDiagram.png (PNG copy)>]) (./review/iomtSecurity.tex) (./review/iotAlgorithm.tex)) [3] (./relation/relation.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
- [3]
+ [4
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
  (./LitReview.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
@@ -1068,18 +1067,18 @@ Package logreq Info: Writing requests to 'LitReview.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 18015 strings out of 492615
- 298092 string characters out of 6131390
- 744732 words of memory out of 5000000
- 21659 multiletter control sequences out of 15000+600000
+ 18024 strings out of 492615
+ 298280 string characters out of 6131390
+ 746885 words of memory out of 5000000
+ 21662 multiletter control sequences out of 15000+600000
  119641 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,18n,56p,1978b,1214s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LitReview.pdf (5 pages, 254383 bytes).
+Output written on LitReview.pdf (6 pages, 244977 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

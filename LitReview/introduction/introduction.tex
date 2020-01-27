@@ -16,29 +16,37 @@ Distributed Denial of Service attacks aim to shut down their targets servers
 through a high volume flood of traffic. This high volume traffic, which can be
 in the order of Terrabytes of data, serves to overload the available resources
 of the hosts network, which causes regular user traffic to be rerouted. This
-rerouting leads to the ``denial of service'' aspect of the attack.
+re-routing leads to the ``denial of service'' aspect of the attack.
 
-The distributed aspect of the DDoS attack comes from the multiple devices which
-are infected with the attackers malware. These devices are known as bots, and
+In order to generate such large volumes of data, an attacker uses multiple
+devices for transmission of malicious data packets. The distributed aspect of
+the DDoS attack comes from the multiple devices which are infected with
+malware, placed on the devices by the attacker. These devices are known as bots, and
 are remotely accessed by an attacker to generate high traffic to drain the
 networks resources.
-
 
 \subsection{Internet of Things DDoS Attacks}
 
 A DDoS attack relies on the attacker gaining remote access to devices in order
-to initiate a flood of traffic. As such, Internet of Things devices can act as
-an entry point to the network for an attacker due to the ``always-on'' nature of
-the devices and their connection to the network, and their lack of security
-features.
+to initiate a flood of traffic. Due to their relative abundance, Internet of
+Things devices have become a target for these types of attacks in recent years.
+IoT devices can act as an entry point to the network for an attacker due to the
+``always-on'' nature of the devices and their connection to the network, and
+their lack of security features.
 
 Attacks, such as the Mirai attack, rely on the default security credentials
 ,which tend to remain unchanged when configured by end users, to gain access to
-the devices for the uploading of malicious software\cite{7971869}.
+the devices for the uploading of malicious software. Once this
+malware is uploaded to the device, the attacker can begin to flood the desired
+network with traffic\cite{7971869}.
 
 Since the Mirai attack in 2016, and the subsequent release of the Mirai source
 code, there has been an increase in the number of IoT related DDoS
-attacks\cite{Salim2019}.
+attacks\cite{Salim2019}. As such, it is clear that there is a need to secure
+these devices, and the networks in which these devices are utilised. As IoT
+devices become more prevalent in different areas and industries, it becomes
+increasingly important to not only protect the data being generated, but also to
+protect the greater network as a whole which is processing this data.
 
 \subsection{IoT Areas}
 
@@ -50,9 +58,14 @@ use cases outside of the home where IoT devices have been adopted.
 Industrial Internet of Things (IIoT) includes devices such as cameras and sensors
 within industrial settings, which, as with IoT, provides the ability to offload
 intensive processing to higher performance servers\cite{iiot_2019}. This division
-of IoT devices is integral for the ``Industry 4.0'' concept.
+of IoT devices is integral for the ``Industry 4.0'' concept. Devices within this
+sector can be in control of, for example, safety systems, and as such, their
+continuous operation is of vital importance.
 
 Internet of Medical Things (IoMT) devices include healthcare specific connected
 devices, such as medical sensors and wearable devices for patient monitoring
 purposes\cite{iomt_2019}. These devices allow for an increase in patient comfort,
-and are an integral component of the ``Healthcare v4.0'' concept.
+and are an integral component of the ``Healthcare v4.0'' concept. With an
+increase in the number of attacks on similar systems, there is the concern that
+the implementation of such systems could be hindered if more robust security
+systems are put in place.

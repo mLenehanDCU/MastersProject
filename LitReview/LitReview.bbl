@@ -233,6 +233,57 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0167739X19305680
       \endverb
     \endentry
+    \entry{iotalgorithm}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=f52ef3286a0061750696fef217884d54}{%
+           family={Noura},
+           familyi={N\bibinitperiod},
+           given={Hassan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=51b6bb83d47f4294f0fd400e937405da}{%
+           family={Chehab},
+           familyi={C\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=619121ac31f36ba771820319c46479eb}{%
+           family={Sleem},
+           familyi={S\bibinitperiod},
+           given={Lama},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9465508efab4fe4c3f90a022943c8e2f}{%
+           family={Noura},
+           familyi={N\bibinitperiod},
+           given={Mohamad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4bcee04ed47e891d9b9f6bdc9f3e4de3}{%
+           family={Raphaël},
+           familyi={R\bibinitperiod},
+           given={Couturier},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cced4f9fddcd8429fd830c91edad8fb7}{%
+           family={Mansour},
+           familyi={M\bibinitperiod},
+           given={Mohamad\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{827c60f0159b85bed44295d71c6ba455}
+      \strng{fullhash}{be58304fa1461893e9b7be5ea37a8ac6}
+      \strng{bibnamehash}{be58304fa1461893e9b7be5ea37a8ac6}
+      \strng{authorbibnamehash}{be58304fa1461893e9b7be5ea37a8ac6}
+      \strng{authornamehash}{827c60f0159b85bed44295d71c6ba455}
+      \strng{authorfullhash}{be58304fa1461893e9b7be5ea37a8ac6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{One round cipher algorithm for multimedia IoT devices}
+      \verb{urlraw}
+      \verb https://link-springer-com.dcu.idm.oclc.org/content/pdf/10.1007/s11042-018-5660-y. pdf
+      \endverb
+      \verb{url}
+      \verb https://link-springer-com.dcu.idm.oclc.org/content/pdf/10.1007/s11042-018-5660-y.%20pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

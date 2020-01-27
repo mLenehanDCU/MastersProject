@@ -1,0 +1,33 @@
+There is a clear need for a lightweight algorithm for the encoding and decoding
+of information being transmit between devices in an IoT network. Noura et al.
+present such an algorithm in the context of Multimedia IoT (MIoT) devices. The
+proposed solution uses pseudo-random keys for encryption, greatly increasing the
+difficulty of decoding intercepted transmissions\cite{iotalgorithm}.
+
+A number of constraints were considered in the developmet of this algorithm,
+including the limited resources available to IoT devices, and the need for an
+algorithm which can be implemented across devices of varying performance. This
+leads to a lightweight algorithm which may be used across a number of different
+devices, regardless of the resources available to that device.
+
+In order to test the robustness of this algorithm, a number of tests were
+performed, separated under headings which include ``Statistical analysis'', ``Visual
+degredation'', and ``Resistance against well-known types of attacks''. With
+regards to the statistical analysis, the algorithm was shown experimentally to
+have very low correlation between adjacent pixels of the encoded image, with
+output values of close to zero. With regards to visual degredation, there was a
+signal-to-noise ratio (SNR) of 8.5894dB, which is regarded within the study to
+be a ``low value'', showing that the algorithm has acceptable robustness to
+degredation during encoding and decoding. Through a number of attack tests, the
+algorithm was shown to be robust to statistical attacks, and the size of keys
+used attributed to robustness to brute force attacks.
+
+In terms of performance, when tested on two common embedded linux platforms, the
+Raspberry Pi Zero W, and the Raspberry Pi 2, this algorithm gave encryption time
+gains of up to 29\%, and decryption time gains of up to 33\% when compared with
+a similar implementation.
+
+One suggestion made in this study is that the algorithm has been implemented in
+C, whereas the implementation compared to with regards to performance is
+implemented in assembly. As such, further performance benefits could be gained
+from this lower level implementation.
