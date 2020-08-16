@@ -1,0 +1,42 @@
+With the increasing number of IoT devices being used within industry, and the
+growing importance of IIoT within the ``Industry 4.0'' concept, there is an
+increasing need to secure the data and data systems being used. Within
+industrial settings, the data being handled by these IoT systems could be vital
+in terms of safety systems, or mission-critical systems within production. As
+such, Yan et al. have presented a Multi-level DDoS mitigation
+framework (MLDMF) which utilises software defined networking (SDN) for the
+purposes of managing and securing IoT devices\cite{iiot_2019}.
+
+Yan et al. acknowledge that the defence systems available to IoT devices are
+``unsubstantial''. The MLDMF proposed consists of three levels, the edge, fog,
+and cloud computing levels. Each of these levels serves its own purpose in
+securing the IIoT network. The edge computing level provides gateways with
+higher computational power than the IoT devices used in the network, which can
+implement more ``traditional'' security features, such as IP address
+concealment, and malicious software detection.
+
+The fog computing level analyses data from the edge computing level, and, using
+a number of techniques, can make decisions on how to handle the data. The three
+described techniques are collect-detect-mitigate (CDM), honey-pot-detect-react
+(HDR), and cloud-detect-fog-mitigate (CDFM). CDM allows for modifications to the
+networks bandwidth based on properties of the traffic. HDR can redirect traffic
+to a virtual IoT device in order to perform analysis. This technique allows for
+stopping malware from affecting the network, and allows for modifications to
+policies based of any new information gained from captured traffic. CDFM shares
+information between the cloud and fog computing levels in order to inform
+decision on dropping packets which may be from malicious sources.
+
+The cloud computing level implements machine learning techniques in order to
+analyse the large amounts of data flowing through the network. This information
+can be used for the detection and prediction of DDoS attacks, based on the
+incoming data. Experimentally, the implementation of the proposed MLMDF improves
+performance within a network undergoing a TCP SYN flood attack by approximately
+37.03\%.
+
+The use of SDN's for management of IoT devices and the traffic within the
+network have the disadvantage of adding overhead to the network. There is also
+the added cost of hardware for the implementation of the proposed system,
+requiring honeypot servers, and gateways to act as controllers. While the
+proposed solution may be viable, and these costs may be minimal in the context
+of an industrial setting, the current scope of the project is more focused on
+the evaluation of security improvements within the IoT network.
