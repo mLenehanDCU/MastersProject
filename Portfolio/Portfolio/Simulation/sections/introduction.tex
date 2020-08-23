@@ -28,24 +28,24 @@ advantages and disadvantages.
 \subsubsection{ns-3}
 
 The most commonly used network simulation software is "ns-3"; a "discrete-event
-network simulator for Internet systems"\cite{}. This package is commonly used for
-research purposes, and numerous examples of D/DoS simulations implemented using
-ns-3 can be found\cite{}\cite{}.
+network simulator for Internet systems"\cite{nsnam_20AD}. This package is
+commonly used for research purposes, and numerous examples of D/DoS simulations
+implemented using ns-3 can be found\cite{}\cite{}.
 
 \subsubsection{Cooja}
 
 Another simulation software package considered was "Cooja". This package
 simulates Wireless Sensor Networks built on the Contiki IoT operating
-system\cite{}. While the underlying system being simulated is an IoT device,
+system\cite{cooja_2019}. While the underlying system being simulated is an IoT device,
 there was little information to be found on implementing the types of testing
 required, and as such this software package was ruled out.
 
 \subsubsection{Mininet}
 
 The final software package considered was "Mininet". Mininet is a network
-simulator which uses Linux containers to emulate network devices\cite{}. As the
-network devices are emulated using containers, each host uses real Linux Kernel
-code.
+simulator which uses Linux containers to emulate network
+devices\cite{mininet_2018}. As the network devices are emulated using containers,
+each host uses real Linux Kernel code.
 
 As the Mininet hosts run Linux Kernel code, Linux applications can be easily
 run. This is advantageous as common attack tools can be installed and executed.
@@ -69,7 +69,7 @@ used in order to execute repeatable tests with reproducible results.
 
 Due to the advantages offered by the Mininet simulation software package, this
 will be the simulator of choice for testing. There are however a number of
-disadvantages which must be noted.
+disadvantages which must be noted\cite{mnov_2018}.
 
 \begin{enumerate}
 	\item Containers share the file system of the host, i.e. the desktop or

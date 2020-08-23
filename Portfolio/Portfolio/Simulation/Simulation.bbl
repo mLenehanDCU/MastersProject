@@ -16,5 +16,111 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{nsnam_20AD}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0ed61263029d1a98882c0f96ea15b124}{%
+           family={Nsnam},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {nsnam}%
+      }
+      \strng{namehash}{0ed61263029d1a98882c0f96ea15b124}
+      \strng{fullhash}{0ed61263029d1a98882c0f96ea15b124}
+      \strng{bibnamehash}{0ed61263029d1a98882c0f96ea15b124}
+      \strng{authorbibnamehash}{0ed61263029d1a98882c0f96ea15b124}
+      \strng{authornamehash}{0ed61263029d1a98882c0f96ea15b124}
+      \strng{authorfullhash}{0ed61263029d1a98882c0f96ea15b124}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{ns-3}
+      \field{year}{20AD}
+      \verb{urlraw}
+      \verb https://www.nsnam.org/
+      \endverb
+      \verb{url}
+      \verb https://www.nsnam.org/
+      \endverb
+    \endentry
+    \entry{cooja_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7261e0a7ac14f37a06ab3f91fee55147}{%
+           family={Thébaudeau},
+           familyi={T\bibinitperiod},
+           given={Benoît},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7261e0a7ac14f37a06ab3f91fee55147}
+      \strng{fullhash}{7261e0a7ac14f37a06ab3f91fee55147}
+      \strng{bibnamehash}{7261e0a7ac14f37a06ab3f91fee55147}
+      \strng{authorbibnamehash}{7261e0a7ac14f37a06ab3f91fee55147}
+      \strng{authornamehash}{7261e0a7ac14f37a06ab3f91fee55147}
+      \strng{authorfullhash}{7261e0a7ac14f37a06ab3f91fee55147}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Contiki}
+      \field{month}{9}
+      \field{title}{An Introduction to Cooja}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://github.com/contiki-os/contiki/wiki/An-Introduction-to-Cooja
+      \endverb
+      \verb{url}
+      \verb https://github.com/contiki-os/contiki/wiki/An-Introduction-to-Cooja
+      \endverb
+    \endentry
+    \entry{mininet_2018}{misc}{}
+      \list{publisher}{1}{%
+        {Mininet Team}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{journaltitle}{Mininet}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://mininet.org/
+      \endverb
+      \verb{url}
+      \verb http://mininet.org/
+      \endverb
+    \endentry
+    \entry{cfSynFlood}{misc}{}
+      \list{publisher}{1}{%
+        {CloudFlare Inc}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{journaltitle}{SYN Flood Attack}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/learning/ddos/syn-flood-ddos-attack/
+      \endverb
+    \endentry
+    \entry{cfIcmpFlood}{misc}{}
+      \list{publisher}{1}{%
+        {CloudFlare Inc}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{journaltitle}{Ping (ICMP) Flood DDoS Attack}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/learning/ddos/ping-icmp-flood-ddos-attack/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/learning/ddos/ping-icmp-flood-ddos-attack/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

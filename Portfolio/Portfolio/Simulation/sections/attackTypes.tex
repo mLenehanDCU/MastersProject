@@ -1,0 +1,41 @@
+For testing purposes, a number of different attack types were be simulated. SYN
+Flood attacks and ICMP Flood attacks were be simulated.
+
+\subsection{SYN Flood}
+
+SYN floods are an attack which exploit the TCP protocols TCP handshake. The
+attacking node sends TCP SYN packets to the target using spoofed IP addresses.
+The target device will reply with a SYN-ACK, and wait for the initiator to reply
+with a final ACK packet. As the attacking node is using a spoofed IP address, it
+never responds to the SYN-ACK, and so the target node will wait indefinitely for
+the ACK packet\cite{cfSynFlood}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/SYNAttack}
+	\caption{SYN Flood Attack}
+	\label{fig:images-SYNAttack}
+\end{figure}
+
+In order to perform a SYN Flood attack, the "hping" tool is used. Hping is a
+tool for creating and transmitting TCP, UDP or ICMP packets. This tool has
+multiple functions, such as port scanning, and firewall mapping, but can also be
+utilised as a Denial of Service tool. By utilising the tools "rand-source" and
+"flood" flags, the tool can execute a SYN flood, sending TCP SYN packets to the
+target address via spoofed IP addresses.
+
+\subsection{ICMP Flood}
+
+An ICMP flood is a distributed denial of service attack, performed using a
+botnet\cite{cfIcmpFlood}. ICMP requests take server resources to process and reply to. By sending
+large numbers of ICMP requests, the servers resources can be exhausted.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/ICMPFlood}
+	\caption{ICMP Flood Attack}
+	\label{fig:images-ICMPFlood}
+\end{figure}
+
+The "ping" tool can be used to execute an ICMP flood. By using the "-f" flag,
+the ping tool can be used to launch an ICMP flood from a single attacking node.

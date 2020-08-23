@@ -2183,6 +2183,12 @@
     <bcf:datasource type="file" datatype="bibtex">sources/biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">nsnam_20AD</bcf:citekey>
+    <bcf:citekey order="4">cooja_2019</bcf:citekey>
+    <bcf:citekey order="5">mininet_2018</bcf:citekey>
+    <bcf:citekey order="6">mnov_2018</bcf:citekey>
+    <bcf:citekey order="7">cfSynFlood</bcf:citekey>
+    <bcf:citekey order="8">cfIcmpFlood</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

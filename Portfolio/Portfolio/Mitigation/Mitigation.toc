@@ -1,0 +1,10 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {UKenglish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}IoT Device Resources}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Conclusion}{3}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Appendix}{4}{appendix.A}%
