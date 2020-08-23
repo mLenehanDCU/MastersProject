@@ -10,4 +10,9 @@ right), and a server (shown on the bottom).
 	\label{fig:dosNetwork}
 \end{figure}
 
-The initial attack type simulated is a Low-Rate TCP attack.
+As an initial attack, the "hping" tool is used. Hping is a tool for creating and
+transmitting TCP, UDP or ICMP packets. This tool has multiple functions, such as
+port scanning, and firewall mapping, but can also be utilised as a Denial of
+Service tool. By utilising the tools "rand-source" and "flood" flags, the tool
+can execute a SYN flood, sending TCP SYN packets to the target address via
+spoofed IP addresses.

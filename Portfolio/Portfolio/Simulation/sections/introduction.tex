@@ -1,7 +1,83 @@
+The aim of a Distributed Denial of Service attack is to disrupt the connection
+between a service, such as an application server or DNS server, and that
+services users.
+
+Denial of Service (DoS) attacks typically exploited vulnerabilities with network
+or application layer protocols, for example, Syn Floods or HTTP Floods. With these
+types of attacks, spoofed IP addresses were typically used, both to mask the IP
+address of the attacker, and to take advantages of vulnerabilities of the
+protocols being used.
+
+As DoS mitigation techniques improved, and attacks using IP spoofing became
+easier to defend against, attackers began utilising botnets to perform
+amplification attacks. Distributed Denial of Service (DDoS) attacks utilise
+large number of hosts to perform attacks. These types of attacks prove more
+difficult to defend against than typical Denial of Service attacks.
+
 In order to extensively evaluate the impact of Distributed Denial of Service
 attacks, and the role which IoT devices play in modern DDoS attacks, simulations
-can be used. For the purpose of simulation, the "Mininet" network emulator is
-utilised. Mininet utilises the advantages offered by Linux containers. This
-allows for many hosts, running Linux kernel code and application code, to
-connect over a virtualized network.
+can be used. Simulations can show the impact to a network, and the disruption
+caused by these attacks, without having to use real network devices.
 
+\subsection{Simulation Software}
+
+There were a number of simulation software packages considered for the tests
+contained in this document. Each of these packages offer their own set of
+advantages and disadvantages.
+
+\subsubsection{ns-3}
+
+The most commonly used network simulation software is "ns-3"; a "discrete-event
+network simulator for Internet systems"\cite{}. This package is commonly used for
+research purposes, and numerous examples of D/DoS simulations implemented using
+ns-3 can be found\cite{}\cite{}.
+
+\subsubsection{Cooja}
+
+Another simulation software package considered was "Cooja". This package
+simulates Wireless Sensor Networks built on the Contiki IoT operating
+system\cite{}. While the underlying system being simulated is an IoT device,
+there was little information to be found on implementing the types of testing
+required, and as such this software package was ruled out.
+
+\subsubsection{Mininet}
+
+The final software package considered was "Mininet". Mininet is a network
+simulator which uses Linux containers to emulate network devices\cite{}. As the
+network devices are emulated using containers, each host uses real Linux Kernel
+code.
+
+As the Mininet hosts run Linux Kernel code, Linux applications can be easily
+run. This is advantageous as common attack tools can be installed and executed.
+Each host can be assigned a unique IP address allowing the attacking host to
+address it's target as in a real attack situation. As each host is implemented
+as a container, a terminal can be open for each host for manual command execution.
+
+Mininet implements Software Defined Networking using the OpenFlow protocol. By
+default, Mininet uses the OpenFlow reference controller, however, it also allows
+for the use of remote controllers. The "Floodlight" controller will be used for
+this purpose, as it has a GUI application which can display the network
+topology.
+
+Mininet virtualizes the network links between each host or switch in the
+network. These links can be assigned parameters such as a delay time on the
+link, or a set bandwidth.
+
+The Python API implemented by Mininet allows for the topology and the terminal
+commands to be created and executed programmatically. The Python API will be
+used in order to execute repeatable tests with reproducible results.
+
+Due to the advantages offered by the Mininet simulation software package, this
+will be the simulator of choice for testing. There are however a number of
+disadvantages which must be noted.
+
+\begin{enumerate}
+	\item Containers share the file system of the host, i.e. the desktop or
+		VM on which Mininet is being run
+	\item A network cannot exceed the bandwidth of a single server
+	\item Non-Linux-compatible OpenFlow switches and applications are not
+		supported
+\end{enumerate}
+
+While these limitations must be kept in mind, they will not prove to be a
+hindrance for the purposes of these simulations.
