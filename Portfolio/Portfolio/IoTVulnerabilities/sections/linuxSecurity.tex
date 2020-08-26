@@ -1,0 +1,17 @@
+Non-resource constrained, "fully fledged" operating systems which run on
+consumer PCs and enterprise server hardware have a number of security features
+which can be implemented to protect against attack. These range from firewall
+and packet filtering software, to firmware verification software.
+
+\subsection{UEFI Secure Boot}
+
+Secure boot is a security mechanism used to verify that software being run on a
+system is from a trusted source. The vendors whose software has been granted
+permission to run on the system are stored in firmware. This allows for any
+software being loaded onto the device at boot time can be verified by comparing
+the vendor signature agains the keys which are stored in firmware.
+
+Secure boot is compatible with the x64 platform, and is enabled by defautl on
+Windows and most Linux distributions.
+
+\subsection{IPtables}

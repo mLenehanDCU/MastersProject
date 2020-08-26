@@ -47,25 +47,22 @@
 }
 
 \pdfsuppresswarningpagegroup=1
+\title{%
+  Appendix D: \\
+  \large IoT Vulnerabilities}
+  \date{}
 
 \begin{document}
-\hypersetup{pageanchor=false}
-\input{cover/cover}
-\hypersetup{pageanchor=true}
-\pagenumbering{alph}
-\input{cover/declaration}
-\pagenumbering{arabic}
-\tableofcontents
-\clearpage
-\lstlistoflistings
-\clearpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{D-\arabic{page}}
+\maketitle
 \section{Introduction}
 \input{sections/intro}
 \section{IoT Device Resources}
 \input{sections/iotResources}
+\section{OS Security Features}
+\input{sections/linuxSecurity}
 \section{Conclusion}
 \clearpage
 \printbibliography
-\appendix
-\section{Appendix}
 \end{document}
