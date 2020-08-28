@@ -1,19 +1,21 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'LitReview.blg'
-[26] biber:315> INFO - === Mon Jan 27, 2020, 02:38:11
-[44] Biber.pm:371> INFO - Reading 'LitReview.bcf'
-[97] Biber.pm:889> INFO - Found 6 citekeys in bib section 0
-[113] Biber.pm:4093> INFO - Processing section 0
-[122] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliography/biblio.bib' for section 0
-[123] bibtex.pm:1512> INFO - LaTeX decoding ...
-[133] bibtex.pm:1329> INFO - Found BibTeX data source 'bibliography/biblio.bib'
-[135] Utils.pm:193> WARN - month field 'Jun' in entry 'idc_2019' is not an integer - this will probably not sort properly.
-[147] Utils.pm:193> WARN - month field 'Jul' in entry 'Salim2019' is not an integer - this will probably not sort properly.
-[164] Utils.pm:193> WARN - month field 'Dec' in entry 'iomt_2019' is not an integer - this will probably not sort properly.
-[182] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[182] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[182] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[183] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[190] bbl.pm:636> INFO - Writing 'LitReview.bbl' with encoding 'UTF-8'
-[193] bbl.pm:739> INFO - Output to LitReview.bbl
-[193] Biber.pm:110> INFO - WARNINGS: 3
+[129] biber:322> INFO - === Wed Aug 26, 2020, 19:39:41
+[149] Biber.pm:415> INFO - Reading 'LitReview.bcf'
+[256] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[277] Biber.pm:4256> INFO - Processing section 0
+[277] Utils.pm:75> INFO - Globbing data source 'bibliography/biblio.bib'
+[278] Utils.pm:91> INFO - Globbed data source 'bibliography/biblio.bib' to bibliography/biblio.bib
+[293] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography/biblio.bib' for section 0
+[295] bibtex.pm:1653> INFO - LaTeX decoding ...
+[314] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography/biblio.bib'
+[383] Utils.pm:304> WARN - month field 'Jun' in entry 'idc_2019' is not an integer - this will probably not sort properly.
+[421] Utils.pm:304> WARN - month field 'Jul' in entry 'Salim2019' is not an integer - this will probably not sort properly.
+[517] Utils.pm:304> WARN - month field 'Dec' in entry 'iomt_2019' is not an integer - this will probably not sort properly.
+[587] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[588] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[588] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[588] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[607] bbl.pm:652> INFO - Writing 'LitReview.bbl' with encoding 'UTF-8'
+[616] bbl.pm:755> INFO - Output to LitReview.bbl
+[616] Biber.pm:128> INFO - WARNINGS: 3

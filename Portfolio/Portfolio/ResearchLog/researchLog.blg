@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'researchLog.blg'
+[127] biber:322> INFO - === Wed Aug 26, 2020, 19:48:12
+[147] Biber.pm:415> INFO - Reading 'researchLog.bcf'
+[234] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[242] Utils.pm:304> WARN - The file 'researchLog.bcf' does not contain any citations!
+[252] bbl.pm:652> INFO - Writing 'researchLog.bbl' with encoding 'UTF-8'
+[252] bbl.pm:755> INFO - Output to researchLog.bbl
+[252] Biber.pm:128> INFO - WARNINGS: 1

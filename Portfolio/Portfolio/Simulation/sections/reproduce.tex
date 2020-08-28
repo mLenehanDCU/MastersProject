@@ -9,27 +9,27 @@ documentation \ref{}. For Debian based systems, Mininet can be installed via the
 "apt" package manager, using the command:
 
 \begin{lstlisting}[language=bash, caption=Debian-based Distro Mininet Install]
-	$ apt-get install mininet
+$ apt-get install mininet
 \end{lstlisting}
 
 For Arch based distributions, Mininet may be installed using the Arch User
 Repository using the following command:
 
 \begin{lstlisting}[language=bash, caption=Arch-based Distro Mininet Install]
-	$ yay -S mininet-git
+$ yay -S mininet-git
 \end{lstlisting}
 
 To test the installation, execute the command:
 
 \begin{lstlisting}[language=bash, caption=Mininet installation test]
-	$ sudo mn --test pingall
+$ sudo mn --test pingall
 \end{lstlisting}
 
 If the error "ovs-vsctl: unix:/run/openvswitch/db.sock database connection
 failed" occurs, the Open vSwitch must be started using the command:
 
 \begin{lstlisting}[language=bash, caption=Open vSwitch service start command]
-	$ sudo /usr/share/openvswitch/scripts/ovs-ctl start
+$ sudo /usr/share/openvswitch/scripts/ovs-ctl start
 \end{lstlisting}
 
 \subsection{Floodlight OpenFlow Controller}
@@ -39,26 +39,26 @@ version 1.2 (as used for these simulation), the Java 8 development kit must be
 installed:
 
 \begin{lstlisting}[language=bash, caption=openjdk8 installation]
-	$ sudo pacman -S openjdk8-src
+$ sudo pacman -S openjdk8-src
 \end{lstlisting}
 
 Floodlight has a number of dependencies which can be installed via the following
 command:
 
 \begin{lstlisting}[language=bash, caption=Floodlight Dependencies]
-	sudo pacman -S git ant maven python-dev
+$ sudo pacman -S git ant maven python-dev
 \end{lstlisting}
 
 To download and build Floodlight, execute the following commands:
 
 \begin{lstlisting}[language=bash, caption=Floodlight installation commands]
-	$ git clone git://github.com/floodlight/floodlight.git
-	$ cd floodlight
-	$ git submodule init
-	$ git submodule update
-	$ ant
-	# If the ant build fails, Floodlight can be built using Maven
-	$ sudo mvn package
+$ git clone git://github.com/floodlight/floodlight.git
+$ cd floodlight
+$ git submodule init
+$ git submodule update
+$ ant
+# If the ant build fails, Floodlight can be built using the following Maven command
+$ sudo mvn package
 \end{lstlisting}
 
 \subsection{Source Code}
@@ -67,5 +67,5 @@ The source code for the simulations can be found on GitHub, and can be
 downloaded using the following command:
 
 \begin{lstlisting}[language=bash, caption=Source code download]
-	$ git clone git://github.com/
+$ git clone https://github.com/mLenehanDCU/MininetCode.git
 \end{lstlisting}

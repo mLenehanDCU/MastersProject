@@ -1,20 +1,20 @@
-[1] Config.pm:304> INFO - This is Biber 2.14
-[1] Config.pm:307> INFO - Logfile is 'Simulation.blg'
-[204] biber:322> INFO - === Sun Aug 23, 2020, 17:38:29
-[225] Biber.pm:415> INFO - Reading 'Simulation.bcf'
-[340] Biber.pm:943> INFO - Found 5 citekeys in bib section 0
-[358] Biber.pm:4256> INFO - Processing section 0
-[359] Utils.pm:75> INFO - Globbing data source 'sources/biblio.bib'
-[359] Utils.pm:91> INFO - Globbed data source 'sources/biblio.bib' to sources/biblio.bib
-[372] Biber.pm:4455> INFO - Looking for bibtex format file 'sources/biblio.bib' for section 0
-[373] bibtex.pm:1653> INFO - LaTeX decoding ...
-[381] bibtex.pm:1471> INFO - Found BibTeX data source 'sources/biblio.bib'
-[443] Utils.pm:304> WARN - year field '20AD' in entry 'nsnam_20AD' is not an integer - this will probably not sort properly.
-[448] Utils.pm:304> WARN - month field 'Sep' in entry 'cooja_2019' is not an integer - this will probably not sort properly.
-[465] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[465] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[465] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[465] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
-[476] bbl.pm:652> INFO - Writing 'Simulation.bbl' with encoding 'UTF-8'
-[478] bbl.pm:755> INFO - Output to Simulation.bbl
-[478] Biber.pm:128> INFO - WARNINGS: 2
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'Simulation.blg'
+[140] biber:322> INFO - === Sun Aug 23, 2020, 20:59:23
+[161] Biber.pm:415> INFO - Reading 'Simulation.bcf'
+[246] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[264] Biber.pm:4256> INFO - Processing section 0
+[264] Utils.pm:75> INFO - Globbing data source 'sources/biblio.bib'
+[264] Utils.pm:91> INFO - Globbed data source 'sources/biblio.bib' to sources/biblio.bib
+[285] Biber.pm:4455> INFO - Looking for bibtex format file 'sources/biblio.bib' for section 0
+[286] bibtex.pm:1653> INFO - LaTeX decoding ...
+[293] bibtex.pm:1471> INFO - Found BibTeX data source 'sources/biblio.bib'
+[338] Utils.pm:304> WARN - year field '20AD' in entry 'nsnam_20AD' is not an integer - this will probably not sort properly.
+[343] Utils.pm:304> WARN - month field 'Sep' in entry 'cooja_2019' is not an integer - this will probably not sort properly.
+[360] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[360] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[360] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[360] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
+[372] bbl.pm:652> INFO - Writing 'Simulation.bbl' with encoding 'UTF-8'
+[374] bbl.pm:755> INFO - Output to Simulation.bbl
+[374] Biber.pm:128> INFO - WARNINGS: 2

@@ -49,14 +49,12 @@
 \pdfsuppresswarningpagegroup=1
 
 \begin{document}
-\hypersetup{pageanchor=false}
-\input{cover/cover}
-\hypersetup{pageanchor=true}
-\pagenumbering{alph}
-\input{cover/declaration}
-\pagenumbering{arabic}
-\tableofcontents
-\clearpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{B-\arabic{page}}
+\title{Appendix B: \\
+\large Project Design Plan}
+\date{}
+\maketitle
 \section{Research Question}
 \input{sections/researchQ.tex}
 \section{Project Scope}

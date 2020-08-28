@@ -95,11 +95,10 @@
 \pdfsuppresswarningpagegroup=1
 
 \begin{document}
-\hypersetup{pageanchor=false}
-\includepdf[pages=-]{cover/coversheet}
-\hypersetup{pageanchor=true}
-\pagenumbering{arabic}
-\title{An Evaluation of Distributed Denial of Service (DDoS) Attacks in IoT
+\setcounter{page}{1}
+\renewcommand{\thepage}{A-\arabic{page}}
+\title{Appendix A: \\
+	\large An Evaluation of Distributed Denial of Service (DDoS) Attacks in IoT
 Networks - Literature Review}
 \author{Michael Lenehan}
 

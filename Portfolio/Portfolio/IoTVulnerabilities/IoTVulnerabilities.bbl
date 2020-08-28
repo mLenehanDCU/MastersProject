@@ -16,5 +16,137 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{ubuntuSecureBoot}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ubuntu Wiki}
+      \field{title}{Secure Boot}
+      \verb{urlraw}
+      \verb https://wiki.ubuntu.com/UEFI/SecureBoot
+      \endverb
+      \verb{url}
+      \verb https://wiki.ubuntu.com/UEFI/SecureBoot
+      \endverb
+    \endentry
+    \entry{uefiSecureBoot}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7a47d90836297ec47529f18255fb4e67}{%
+           family={Wilkins},
+           familyi={W\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c0f40df294449b8daa671c17ffac7369}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2574aaebc101704d53785eeabfcb9475}
+      \strng{fullhash}{2574aaebc101704d53785eeabfcb9475}
+      \strng{bibnamehash}{2574aaebc101704d53785eeabfcb9475}
+      \strng{authorbibnamehash}{2574aaebc101704d53785eeabfcb9475}
+      \strng{authornamehash}{2574aaebc101704d53785eeabfcb9475}
+      \strng{authorfullhash}{2574aaebc101704d53785eeabfcb9475}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{UEFI Secure Boot in Modern Computer Security Solutions}
+      \verb{urlraw}
+      \verb https://www.uefi.org/sites/default/files/resources/UEFI_Secure_Boot_in_Modern_Computer_Security_Solutions_2013.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.uefi.org/sites/default/files/resources/UEFI_Secure_Boot_in_Modern_Computer_Security_Solutions_2013.pdf
+      \endverb
+    \endentry
+    \entry{hoffman_2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=42b1a7c5d1b0e5635cc43fbd3a36ffe1}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {How-To Geek}%
+      }
+      \strng{namehash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
+      \strng{fullhash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
+      \strng{bibnamehash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
+      \strng{authorbibnamehash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
+      \strng{authornamehash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
+      \strng{authorfullhash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{How}
+      \field{month}{7}
+      \field{title}{How Secure Boot Works on Windows 8 and 10, and What It Means for Linux}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.howtogeek.com/116569/htg-explains-how-windows-8s-secure-boot-feature-works-what-it-means-for-linux/
+      \endverb
+      \verb{url}
+      \verb https://www.howtogeek.com/116569/htg-explains-how-windows-8s-secure-boot-feature-works-what-it-means-for-linux/
+      \endverb
+    \endentry
+    \entry{juullabs-oss}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8173f3f31fe1735800f478e1461482e0}{%
+           family={JuulLabs-OSS},
+           familyi={J\bibinithyphendelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{8173f3f31fe1735800f478e1461482e0}
+      \strng{fullhash}{8173f3f31fe1735800f478e1461482e0}
+      \strng{bibnamehash}{8173f3f31fe1735800f478e1461482e0}
+      \strng{authorbibnamehash}{8173f3f31fe1735800f478e1461482e0}
+      \strng{authornamehash}{8173f3f31fe1735800f478e1461482e0}
+      \strng{authorfullhash}{8173f3f31fe1735800f478e1461482e0}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{mcuboot}
+      \field{title}{JuulLabs-OSS/mcuboot}
+      \verb{urlraw}
+      \verb https://github.com/JuulLabs-OSS/mcuboot
+      \endverb
+      \verb{url}
+      \verb https://github.com/JuulLabs-OSS/mcuboot
+      \endverb
+    \endentry
+    \entry{iotSecurityFoundation}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0ee518c3eb6b06bed34288bdef84207d}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={IoT\bibnamedelima Security},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ee518c3eb6b06bed34288bdef84207d}
+      \strng{fullhash}{0ee518c3eb6b06bed34288bdef84207d}
+      \strng{bibnamehash}{0ee518c3eb6b06bed34288bdef84207d}
+      \strng{authorbibnamehash}{0ee518c3eb6b06bed34288bdef84207d}
+      \strng{authornamehash}{0ee518c3eb6b06bed34288bdef84207d}
+      \strng{authorfullhash}{0ee518c3eb6b06bed34288bdef84207d}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IoT Security Foundation}
+      \field{title}{Device Secure Boot}
+      \verb{urlraw}
+      \verb https://www.iotsecurityfoundation.org/best-practice-guide-articles/device-secure-boot/
+      \endverb
+      \verb{url}
+      \verb https://www.iotsecurityfoundation.org/best-practice-guide-articles/device-secure-boot/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

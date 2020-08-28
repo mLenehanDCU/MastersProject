@@ -3,15 +3,61 @@ consumer PCs and enterprise server hardware have a number of security features
 which can be implemented to protect against attack. These range from firewall
 and packet filtering software, to firmware verification software.
 
-\subsection{UEFI Secure Boot}
+\subsection{Secure Boot}
 
 Secure boot is a security mechanism used to verify that software being run on a
 system is from a trusted source. The vendors whose software has been granted
-permission to run on the system are stored in firmware. This allows for any
-software being loaded onto the device at boot time can be verified by comparing
-the vendor signature agains the keys which are stored in firmware.
+permission to run on the system are stored in firmware\cite{ubuntuSecureBoot}.
+This allows for any software being loaded onto the device at boot time can be
+verified by comparing the vendor signature against the keys which are stored in
+firmware.
 
-Secure boot is compatible with the x64 platform, and is enabled by defautl on
-Windows and most Linux distributions.
+\subsubsection{UEFI Secure Boot}
+
+UEFI found the need to implement the secure boot mechanism as protections for
+post-boot code injection had become competent enough that attackers were
+beginning to focus their efforts on pre-boot firmware injection. Pre-boot
+malware injection includes rootkit and bootkits, which, before secure boot,
+proved extremely difficult to detect.
+
+There are a number of intended results for pre-boot exploits, ranging from
+control over the operating system, or user identification credential snooping,
+to control over ROM and PCIe peripherals.
+
+Vendor signatures are stored in databases in the devices firmware. The two types
+of keys used for accessing these databases are Platform Keys, and Key Exchange
+Keys\cite{uefiSecureBoot}. Platform keys are the vendor defined key, which
+prevents modifications to the Key Exchange Key. The Key Exchange Key
+prevents modifications to the signature database. This mechanism allows vendors
+with valid KEK's to modify the signature database, such as inserting or deleting
+a signature. By comparing each code module's signature to the database at boot
+time, a decision can be made on whether to load this module and proceed with the
+boot process, or not to load the module and terminate the boot process.
+
+The device manufacturer controls the signatures which are included from the
+factory. Vendors such as Microsoft offer programs for vendors to submit modules
+for authorization, to have their signatures added to the signatures database.
+This system has been mirrored by a number of Linux distributions.
+
+Secure boot is compatible with the x64 platform, and is enabled by default on
+Windows and most Linux distributions\cite{hoffman_2017}. By enabling this
+mechanism by default, the user must disable the feature to open themselves to
+vulnerability.
+
+\subsubsection{Secure Boot in IoT Systems}
+
+While IoT devices typically have a one-time setup, they can be rebooted multiple
+times over there lifetime, especially in the case of smart home IoT devices, as
+they are relocated or power cycled. By initiating their boot process, these
+devices become vulnerable to the injection of malicious code modules. There is a
+recognition for the need of a secure boot type mechanism for Internet of Things
+devices, with implementations such as MCUboot in development for a number of
+microcontroller based operating systems such as RIOT and
+Zephyr\cite{juullabs-oss}. There are, however, a number of limitations which
+have to be considered, namely the lack of available storage on these contrained
+devices. As a workaround for this constraint the boot code can be written to
+non-modifiable ROM, although this could raise issues in the devices future, as
+patches required to the devices firmware to mitigate other vulnerabilities could
+not be implemented\cite{iotSecurityFoundation}.
 
 \subsection{IPtables}

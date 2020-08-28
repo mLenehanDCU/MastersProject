@@ -2183,6 +2183,11 @@
     <bcf:datasource type="file" datatype="bibtex">sources/biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">ubuntuSecureBoot</bcf:citekey>
+    <bcf:citekey order="2">uefiSecureBoot</bcf:citekey>
+    <bcf:citekey order="3">hoffman_2017</bcf:citekey>
+    <bcf:citekey order="4">juullabs-oss</bcf:citekey>
+    <bcf:citekey order="5">iotSecurityFoundation</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

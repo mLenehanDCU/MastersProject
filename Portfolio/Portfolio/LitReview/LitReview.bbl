@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,7 +21,7 @@
   \datalist[entry]{none/global//global/global}
     \entry{idc_2019}{misc}{}
       \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IDC}
       \field{month}{6}
@@ -64,7 +64,7 @@
       \strng{authornamehash}{290dc54c39eca1e11c4c22d54820539c}
       \strng{authorfullhash}{8dbe328bfaf41cbe8db084286878e9f9}
       \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1558-0814}
@@ -105,7 +105,7 @@
       \strng{authornamehash}{fdf87335c69fd24c672dea21ab760786}
       \strng{authorfullhash}{fdf87335c69fd24c672dea21ab760786}
       \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A distributed denial of service (DDoS) attack is an attempt to partially or completely shut down the targeted server with a flood of internet traffic. The primary aim of this attack is to disrupt regular traffic flow to the victim's server or network. DDoS attacks are volumetric attacks, and non-legacy IoT devices with low security such as webcams, baby monitoring devices and printers are compromised to form a botnet. High traffic from compromised IoT devices is rerouted to servers to disrupt their regular services. DDoS attacks are to an extent covered in the research literature. However, existing research do not discuss all DDoS attacks on general servers and botnet attacks on IoT devices and suggest few detection and mitigation solutions which are limited to addressing attacks on the cloud environment. Existing survey focuses either on the cloud layer or the IoT layer. A complete survey of DDoS attacks for both IoT and the cloud environment is not present in the current literature. Our survey is a comprehensive approach which includes general DDoS attack motivations and specific reasons why attackers prefer IoT devices to launch DDoS attacks. Various attack methods to compromise IoT devices and tools used to deploy botnet-infected IoT devices for DDoS attacks on the cloud layer are presented. A detailed attack classification on IoT devices and the cloud environment is presented considering that IoT devices are first compromised and then used by attackers against their primary targets on the cloud layer. Various state-of-the-art defense measures in the current literature for defense against DDoS attacks are present. Suggestions to implement an essential first line of defense for IoT devices are suggested. Our paper, to the best of our knowledge, is first to provide a holistic study of DDoS attacks from IoT devices to the cloud environment.}
@@ -159,7 +159,7 @@
       \strng{authornamehash}{ee79f53d9a95bd04c0bb18c33d3d9e58}
       \strng{authorfullhash}{d21b3e85bb7be932006ddf2d3566bbec}
       \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{A Multi-Level DDoS Mitigation Framework for the Industrial Internet of Things - IEEE Journals & Magazine}
@@ -219,7 +219,7 @@
       \strng{authornamehash}{8f2f953e775a6bf5ed90e66b86763854}
       \strng{authorfullhash}{d91cb58689385608f4df3fccf54e8a7b}
       \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Future Generation Computer Systems}
@@ -273,7 +273,7 @@
       \strng{authornamehash}{827c60f0159b85bed44295d71c6ba455}
       \strng{authorfullhash}{be58304fa1461893e9b7be5ea37a8ac6}
       \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{One round cipher algorithm for multimedia IoT devices}

@@ -90,12 +90,29 @@
       \verb http://mininet.org/
       \endverb
     \endentry
+    \entry{mnov_2018}{misc}{}
+      \list{publisher}{1}{%
+        {Mininet Team}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mininet}
+      \field{title}{Mininet Overview}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://mininet.org/overview/
+      \endverb
+      \verb{url}
+      \verb http://mininet.org/overview/
+      \endverb
+    \endentry
     \entry{cfSynFlood}{misc}{}
       \list{publisher}{1}{%
         {CloudFlare Inc}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{journaltitle}{SYN Flood Attack}
       \field{year}{2020}
       \verb{urlraw}
@@ -109,8 +126,8 @@
       \list{publisher}{1}{%
         {CloudFlare Inc}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{journaltitle}{Ping (ICMP) Flood DDoS Attack}
       \field{year}{2020}
       \verb{urlraw}

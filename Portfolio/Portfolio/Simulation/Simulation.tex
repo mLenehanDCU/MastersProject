@@ -49,16 +49,12 @@
 \pdfsuppresswarningpagegroup=1
 
 \begin{document}
-\hypersetup{pageanchor=false}
-\input{cover/cover}
-\hypersetup{pageanchor=true}
-\pagenumbering{alph}
-\input{cover/declaration}
-\pagenumbering{arabic}
-\tableofcontents
-\clearpage
-\lstlistoflistings
-\clearpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{E-\arabic{page}}
+\title{Appendix E: \\
+	\large Simulation - Testing and Results}
+\date{}
+\maketitle
 \section{Introduction}
 \input{sections/introduction}
 \section{Attack Types}

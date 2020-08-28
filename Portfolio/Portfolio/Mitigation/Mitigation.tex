@@ -49,16 +49,12 @@
 \pdfsuppresswarningpagegroup=1
 
 \begin{document}
-\hypersetup{pageanchor=false}
-\input{cover/cover}
-\hypersetup{pageanchor=true}
-\pagenumbering{alph}
-\input{cover/declaration}
-\pagenumbering{arabic}
-\tableofcontents
-\clearpage
-\lstlistoflistings
-\clearpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{F-\arabic{page}}
+\title{Appendix F: \\
+\large Detection \& Mitigation Techniques}
+\date{}
+\maketitle
 \section{Introduction}
 \input{sections/intro}
 \section{IoT Device Resources}
@@ -66,6 +62,4 @@
 \section{Conclusion}
 \clearpage
 \printbibliography
-\appendix
-\section{Appendix}
 \end{document}
