@@ -1,19 +1,21 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'IoTVulnerabilities.blg'
-[127] biber:322> INFO - === Sat Aug 29, 2020, 18:12:16
-[145] Biber.pm:415> INFO - Reading 'IoTVulnerabilities.bcf'
-[225] Biber.pm:943> INFO - Found 16 citekeys in bib section 0
-[244] Biber.pm:4256> INFO - Processing section 0
-[244] Utils.pm:75> INFO - Globbing data source 'sources/biblio.bib'
-[245] Utils.pm:91> INFO - Globbed data source 'sources/biblio.bib' to sources/biblio.bib
-[255] Biber.pm:4455> INFO - Looking for bibtex format file 'sources/biblio.bib' for section 0
-[256] bibtex.pm:1653> INFO - LaTeX decoding ...
-[268] bibtex.pm:1471> INFO - Found BibTeX data source 'sources/biblio.bib'
-[307] Utils.pm:304> WARN - month field 'Jul' in entry 'hoffman_2017' is not an integer - this will probably not sort properly.
-[371] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[371] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[371] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[371] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
-[384] bbl.pm:652> INFO - Writing 'IoTVulnerabilities.bbl' with encoding 'UTF-8'
-[390] bbl.pm:755> INFO - Output to IoTVulnerabilities.bbl
-[390] Biber.pm:128> INFO - WARNINGS: 1
+[1] Config.pm:307> INFO - Logfile is 'IoTVulnerabilities.blg'
+[134] biber:322> INFO - === Sat Aug 29, 2020, 23:29:52
+[155] Biber.pm:415> INFO - Reading 'IoTVulnerabilities.bcf'
+[361] Biber.pm:943> INFO - Found 25 citekeys in bib section 0
+[418] Biber.pm:4256> INFO - Processing section 0
+[418] Utils.pm:75> INFO - Globbing data source 'sources/biblio.bib'
+[419] Utils.pm:91> INFO - Globbed data source 'sources/biblio.bib' to sources/biblio.bib
+[462] Biber.pm:4455> INFO - Looking for bibtex format file 'sources/biblio.bib' for section 0
+[466] bibtex.pm:1653> INFO - LaTeX decoding ...
+[526] bibtex.pm:1471> INFO - Found BibTeX data source 'sources/biblio.bib'
+[708] Utils.pm:304> WARN - month field 'Jul' in entry 'hoffman_2017' is not an integer - this will probably not sort properly.
+[840] Utils.pm:304> WARN - Possible typo (case mismatch) between citation and datasource keys: 'zepCVe1' and 'zepCve1' in file 'sources/biblio.bib'
+[882] Utils.pm:304> WARN - I didn't find a database entry for 'zepCVe1' (section 0)
+[981] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[981] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[982] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[982] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-UK'
+[1049] bbl.pm:652> INFO - Writing 'IoTVulnerabilities.bbl' with encoding 'UTF-8'
+[1083] bbl.pm:755> INFO - Output to IoTVulnerabilities.bbl
+[1083] Biber.pm:128> INFO - WARNINGS: 3

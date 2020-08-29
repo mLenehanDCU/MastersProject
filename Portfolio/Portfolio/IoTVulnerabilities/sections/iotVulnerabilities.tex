@@ -10,7 +10,7 @@ issues such as improper and encryption authentication methods, open ports, and
 an inability to update flaws in firmware certainly leave these devices
 vulnerable to attack on a large scale.
 
-\subsubsection{Common Vulnerabilities and Exposures - IoT Logs}
+\subsubsection{Common Vulnerabilities and Exposures}
 
 CVE, or Common Vulnerabilities and Exposures, is a publicly accessible list of
 cybersecurity vulnerabilities\cite{cveHome}. This list is comprised of reported
@@ -85,7 +85,7 @@ can lead to an exhaustion of memory resources on the device.
 
 \subsubsubsection{\textbf{Contiki-OS}}
 
-Both the first and second  listed CVE reports for Contiki-OS refer to the same
+Both the first and second listed CVE reports for Contiki-OS refer to the same
 Cross-Site Scripting vulnerability in the mqtt.html configuration page. The
 first of these reports is a medium severity vulnerability\cite{contikiCve1},
 while the second is listed as a high severity vulnerability\cite{contikiCve2}.
@@ -97,4 +97,29 @@ service\cite{contikiMqtt}.
 
 \subsubsubsection{\textbf{Amazon FreeRTOS}}
 
+There are 11 listed CVE reports for Amazons FreeRTOS\cite{awsCve}, all of which are based on
+vulnerabilities in the operating systems TCP/IP implementation. The higher
+scored medium severity reports are vulnerable to DoS attack and remote code
+execution. Report CVE-2018-16526\cite{awsCve1} outlines how a buffer overflow occuring during
+the generation of a checksum can give an attacker access to execute code on the
+device. The vulnerability described in report CVE-2018-16601\cite{awsCve2} can
+lead to a denial of service. All other listed vulnerabilities are either due to
+buffer overflows or TCP packet parsing error.
+
 \subsubsubsection{\textbf{ZephyrOS}}
+
+The listed vulnerabilities for Zephyr OS range from medium to high
+severity\cite{zepCve}. The first of these allows an attacker connected via
+telnet to cause a system crash, and therefore a denial of service attack. The
+crash could be caused by executing the "history" command, causing a buffer
+overflow\cite{zepCVe1}. The second medium severity report is a duplicate of this
+issue.
+
+The first of the high severity reports\cite{zepCve2} details how an incorrect
+implementation of type checking within the sys\_ring\_bug\_get() and
+sys\_ring\_buf\_put() kernel API calls caused the kernel to spin, which again
+could be used to initiate a denial of service\cite{zep2Git}.
+
+The final report is of high severity\cite{zepCve3}}, and details how a buffer
+overflow can be initiated due to the kernel getaddrinfo() call, which is used
+during DNS resolution\cite{zep3Git}.

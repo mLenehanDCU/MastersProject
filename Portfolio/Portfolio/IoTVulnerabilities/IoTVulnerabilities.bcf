@@ -2199,6 +2199,15 @@
     <bcf:citekey order="14">contikiCve1</bcf:citekey>
     <bcf:citekey order="15">contikiCve2</bcf:citekey>
     <bcf:citekey order="16">contikiMqtt</bcf:citekey>
+    <bcf:citekey order="17">awsCve</bcf:citekey>
+    <bcf:citekey order="18">awsCve1</bcf:citekey>
+    <bcf:citekey order="19">awsCve2</bcf:citekey>
+    <bcf:citekey order="20">zepCve</bcf:citekey>
+    <bcf:citekey order="21">zepCVe1</bcf:citekey>
+    <bcf:citekey order="22">zepCve2</bcf:citekey>
+    <bcf:citekey order="23">zep2Git</bcf:citekey>
+    <bcf:citekey order="24">zepCve3</bcf:citekey>
+    <bcf:citekey order="25">zep3Git</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
