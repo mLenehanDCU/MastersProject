@@ -2189,6 +2189,16 @@
     <bcf:citekey order="4">juullabs-oss</bcf:citekey>
     <bcf:citekey order="5">iotSecurityFoundation</bcf:citekey>
     <bcf:citekey order="6">neshenko_2019</bcf:citekey>
+    <bcf:citekey order="7">cveHome</bcf:citekey>
+    <bcf:citekey order="8">nvdCalculator</bcf:citekey>
+    <bcf:citekey order="9">riotCve1</bcf:citekey>
+    <bcf:citekey order="10">riotMqtt</bcf:citekey>
+    <bcf:citekey order="11">riotCve2</bcf:citekey>
+    <bcf:citekey order="12">riotTcp</bcf:citekey>
+    <bcf:citekey order="13">riotCve3</bcf:citekey>
+    <bcf:citekey order="14">contikiCve1</bcf:citekey>
+    <bcf:citekey order="15">contikiCve2</bcf:citekey>
+    <bcf:citekey order="16">contikiMqtt</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

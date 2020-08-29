@@ -9,3 +9,92 @@ physically connect their PC to thousands of IoT devices to build their botnet -
 issues such as improper and encryption authentication methods, open ports, and
 an inability to update flaws in firmware certainly leave these devices
 vulnerable to attack on a large scale.
+
+\subsubsection{Common Vulnerabilities and Exposures - IoT Logs}
+
+CVE, or Common Vulnerabilities and Exposures, is a publicly accessible list of
+cybersecurity vulnerabilities\cite{cveHome}. This list is comprised of reported
+vulnerabilities from user and engineers, with details of the vulnerability and
+level of exposure to the system due to the vulnerability. Each CVE entry
+contains a CVE ID, details of the vulnerability, and Common Vulnerability
+Scoring System (CVSS) score. The CVSS score is calculated using a number of
+metrics, including at its base level the attack vector and complexity, the
+requirement for user interaction, and the impact of the vulnerability on a users
+confidentiality or the availability of the service\cite{nvdCalculator}. The
+score defines a severity rating from Low to High for the listed vulnerability.
+With the CVSS 3.0 rating system, scores from 0.1 to 3.9 are low severity, 4.0 to
+6.9 is medium severity, 7.0 to 8.9 are high severity, and 9.0 to 10 are critical
+severity.
+
+Listed in Table \ref{tab:iotCve} are the currently listed CVE reports for the IoT
+operating systems RIOT, Contiki, Amazon FreeRTOS and Zephyr OS.
+
+\begin{table}[H]
+	\centering
+	\caption{IoT Operating System CVE Logs}
+	\label{tab:iotCve}
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	Operating System & CVE ID & CVE Score \\
+	\hline\hline
+	RIOT-OS & CVE-2019-16754 & 5.0 \\
+		& CVE-2019-15702 & 5.0 \\
+		& CVE-2019-15134 & 7.8 \\
+	\hline
+	Contiki-OS & CVE-2017-7296 & 4.3 \\
+		   & CVE-2017-7295 & 7.8 \\
+	\hline
+	Amazon FreeRTOS & CVE-2018-16603 & 4.3 \\
+			& CVE-2018-16602 & 4.3 \\
+			& CVE-2018-16601 & 6.8 \\
+			& CVE-2018-16600 & 4.3 \\
+			& CVE-2018-16599 & 4.3 \\
+			& CVE-2018-16598 & 4.3 \\
+			& CVE-2018-16527 & 4.3 \\
+			& CVE-2018-16526 & 6.8 \\
+			& CVE-2018-16525 & 6.8 \\
+			& CVE-2018-16524 & 4.3 \\
+			& CVE-2018-16523 & 5.8 \\
+	\hline
+	ZephyrOS & CVE-2018-1000800 & 7.5 \\
+		 & CVE-2017-14202   & 4.6 \\
+		 & CVE-2017-14201   & 4.6 \\
+		 & CVE-2017-14199   & 7.5 \\
+	\hline\hline
+	\end{tabular}
+\end{table}
+
+\subsubsubsection{\textbf{RIOT OS Vulnerabilities}}
+
+The listed RIOT OS vulnerabilities range from medium to high severity. The two
+medium severity vulnerabilities are protocol vulnerabilities. The first of these
+is an issue with the OS's implementation of the MQTT messaging
+protocol\cite{riotCve1}. Due to
+the implementation, null pointer dereferencing results in a segmentation fault,
+creashing the system\cite{riotMqtt}. The second of these protocol vulnerabilities
+is a TCP parsing error\cite{riotCve2}, whereby the system can be places in an infinite loop while
+attempting to parse a packet with an  unknown option specified, and an option
+length of zero\cite{riotTcp}.
+
+The highest severity vulnerability listed for RIOT OS is another protocol
+vulnerability. This is cited as exposing the devices running this operating
+system to Denial of Service attacks. An error with the implementation of the TCP
+handshake, in which a memory leak occurs when an ACK is received by the device
+as the first packet in the handshake instead of a SYN packet\cite{riotCve3}. This memory leak
+can lead to an exhaustion of memory resources on the device.
+
+\subsubsubsection{\textbf{Contiki-OS}}
+
+Both the first and second  listed CVE reports for Contiki-OS refer to the same
+Cross-Site Scripting vulnerability in the mqtt.html configuration page. The
+first of these reports is a medium severity vulnerability\cite{contikiCve1},
+while the second is listed as a high severity vulnerability\cite{contikiCve2}.
+This difference in severity is due to the level of detail given in the CVE
+reports. This vulnerability in the operating systems included MQTT configuration
+implementation causes a null pointer dereference error, which can be initiated
+via a HTTP POST request, and can cause the host device to crash, causing a denial of
+service\cite{contikiMqtt}.
+
+\subsubsubsection{\textbf{Amazon FreeRTOS}}
+
+\subsubsubsection{\textbf{ZephyrOS}}

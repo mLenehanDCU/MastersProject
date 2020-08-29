@@ -7,4 +7,5 @@
 \BOOKMARK [2][-]{subsection.3.2}{Device Level Firewalls}{section.3}% 7
 \BOOKMARK [2][-]{subsection.3.3}{Linux Iptables and Netfilter}{section.3}% 8
 \BOOKMARK [1][-]{section.4}{IoT Vulnerabilities}{}% 9
-\BOOKMARK [1][-]{section.5}{Conclusion}{}% 10
+\BOOKMARK [2][-]{subsubsection.4.0.1}{Common Vulnerabilities and Exposures - IoT Logs}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 11

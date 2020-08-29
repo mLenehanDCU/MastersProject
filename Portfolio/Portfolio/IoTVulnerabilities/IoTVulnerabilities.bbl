@@ -184,7 +184,7 @@
       \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Communications Surveys &amp; Tutorials}
+      \field{journaltitle}{IEEE Communications Surveys \& Tutorials}
       \field{number}{3}
       \field{title}{Demystifying IoT Security: An Exhaustive Survey on IoT Vulnerabilities and a First Empirical Look on Internet-Scale IoT Exploitations}
       \field{volume}{21}
@@ -193,6 +193,174 @@
       \range{pages}{32}
       \verb{doi}
       \verb 10.1109/comst.2019.2910750
+      \endverb
+    \endentry
+    \entry{cveHome}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CVE}
+      \field{title}{Common Vulnerabilities and Exposures (CVE)}
+      \verb{urlraw}
+      \verb https://cve.mitre.org/index.html
+      \endverb
+      \verb{url}
+      \verb https://cve.mitre.org/index.html
+      \endverb
+    \endentry
+    \entry{nvdCalculator}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NVD}
+      \field{title}{Common Vulnerability Scoring System Calculator}
+      \verb{urlraw}
+      \verb https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
+      \endverb
+      \verb{url}
+      \verb https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
+      \endverb
+    \endentry
+    \entry{riotCve1}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CVE}
+      \field{title}{Vulnerability Details : CVE-2019-16754}
+      \verb{urlraw}
+      \verb https://www.cvedetails.com/cve/CVE-2019-16754/
+      \endverb
+      \verb{url}
+      \verb https://www.cvedetails.com/cve/CVE-2019-16754/
+      \endverb
+    \endentry
+    \entry{riotMqtt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b721536d8087b1db9744f282ee379e6e}{%
+           family={Riot-Os},
+           familyi={R\bibinithyphendelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{fullhash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{bibnamehash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{authorbibnamehash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{authornamehash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{authorfullhash}{b721536d8087b1db9744f282ee379e6e}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitHub}
+      \field{title}{asymcute: Fix null pointer dereference by nmeum · Pull Request \#12293 · RIOT-OS/RIOT}
+      \verb{urlraw}
+      \verb https://github.com/RIOT-OS/RIOT/pull/12293
+      \endverb
+      \verb{url}
+      \verb https://github.com/RIOT-OS/RIOT/pull/12293
+      \endverb
+    \endentry
+    \entry{riotCve2}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CVE}
+      \field{title}{Vulnerability Details : CVE-2019-15702}
+      \verb{urlraw}
+      \verb https://www.cvedetails.com/cve/CVE-2019-15702/
+      \endverb
+      \verb{url}
+      \verb https://www.cvedetails.com/cve/CVE-2019-15702/
+      \endverb
+    \endentry
+    \entry{riotTcp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b721536d8087b1db9744f282ee379e6e}{%
+           family={Riot-Os},
+           familyi={R\bibinithyphendelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{fullhash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{bibnamehash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{authorbibnamehash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{authornamehash}{b721536d8087b1db9744f282ee379e6e}
+      \strng{authorfullhash}{b721536d8087b1db9744f282ee379e6e}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitHub}
+      \field{title}{gnrc_tcp: option parsing doesn't terminate on all inputs, potential DOS · Issue \#12086 · RIOT-OS/RIOT}
+      \verb{urlraw}
+      \verb https://github.com/RIOT-OS/RIOT/issues/12086
+      \endverb
+      \verb{url}
+      \verb https://github.com/RIOT-OS/RIOT/issues/12086
+      \endverb
+    \endentry
+    \entry{riotCve3}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CVE}
+      \field{title}{Vulnerability Details : CVE-2019-15134}
+      \verb{urlraw}
+      \verb https://www.cvedetails.com/cve/CVE-2019-15134/
+      \endverb
+      \verb{url}
+      \verb https://www.cvedetails.com/cve/CVE-2019-15134/
+      \endverb
+    \endentry
+    \entry{contikiCve1}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CVE}
+      \field{title}{Vulnerability Details : CVE-2017-7296}
+      \verb{urlraw}
+      \verb https://www.cvedetails.com/cve/CVE-2017-7296/
+      \endverb
+      \verb{url}
+      \verb https://www.cvedetails.com/cve/CVE-2017-7296/
+      \endverb
+    \endentry
+    \entry{contikiCve2}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CVE}
+      \field{title}{Vulnerability Details : CVE-2017-7295}
+      \verb{urlraw}
+      \verb https://www.cvedetails.com/cve/CVE-2017-7295/
+      \endverb
+      \verb{url}
+      \verb https://www.cvedetails.com/cve/CVE-2017-7295/
+      \endverb
+    \endentry
+    \entry{contikiMqtt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=296e96dc0d51c18dd440a994a23b85e2}{%
+           family={262588213843476},
+           familyi={2\bibinitperiod}}}%
+      }
+      \strng{namehash}{296e96dc0d51c18dd440a994a23b85e2}
+      \strng{fullhash}{296e96dc0d51c18dd440a994a23b85e2}
+      \strng{bibnamehash}{296e96dc0d51c18dd440a994a23b85e2}
+      \strng{authorbibnamehash}{296e96dc0d51c18dd440a994a23b85e2}
+      \strng{authornamehash}{296e96dc0d51c18dd440a994a23b85e2}
+      \strng{authorfullhash}{296e96dc0d51c18dd440a994a23b85e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gist}
+      \field{title}{Contiki MQTT and XSS}
+      \verb{urlraw}
+      \verb https://gist.github.com/jackmcbride/c9328627f1ee104ce84f3fb7eff42f1e
+      \endverb
+      \verb{url}
+      \verb https://gist.github.com/jackmcbride/c9328627f1ee104ce84f3fb7eff42f1e
       \endverb
     \endentry
   \enddatalist
