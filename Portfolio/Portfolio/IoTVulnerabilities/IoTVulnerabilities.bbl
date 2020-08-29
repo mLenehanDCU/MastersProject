@@ -146,6 +146,55 @@
       \verb https://www.iotsecurityfoundation.org/best-practice-guide-articles/device-secure-boot/
       \endverb
     \endentry
+    \entry{neshenko_2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=21b2f9333975a0a4d74bf793ef41a0bd}{%
+           family={Neshenko},
+           familyi={N\bibinitperiod},
+           given={Nataliia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2260eb7a7f59dc1e210f675db84e6994}{%
+           family={Bou-Harb},
+           familyi={B\bibinithyphendelim H\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e444405db6633053b64873d9acc73073}{%
+           family={Crichigno},
+           familyi={C\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+        {{hash=558906a26f57972496e02c577e20963c}{%
+           family={Kaddoum},
+           familyi={K\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6041703abca6d28a295b2d06fecb73fd}{%
+           family={Ghani},
+           familyi={G\bibinitperiod},
+           given={Nasir},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f02932848597848282ea079d5dddda40}
+      \strng{fullhash}{1af00ea550cc9bb87ffbe90622411d1a}
+      \strng{bibnamehash}{1af00ea550cc9bb87ffbe90622411d1a}
+      \strng{authorbibnamehash}{1af00ea550cc9bb87ffbe90622411d1a}
+      \strng{authornamehash}{f02932848597848282ea079d5dddda40}
+      \strng{authorfullhash}{1af00ea550cc9bb87ffbe90622411d1a}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Surveys &amp; Tutorials}
+      \field{number}{3}
+      \field{title}{Demystifying IoT Security: An Exhaustive Survey on IoT Vulnerabilities and a First Empirical Look on Internet-Scale IoT Exploitations}
+      \field{volume}{21}
+      \field{year}{2019}
+      \field{pages}{2702\bibrangedash 2733}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1109/comst.2019.2910750
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -4,5 +4,7 @@
 \BOOKMARK [2][-]{subsection.3.1}{Secure Boot}{section.3}% 4
 \BOOKMARK [3][-]{subsubsection.3.1.1}{UEFI Secure Boot}{subsection.3.1}% 5
 \BOOKMARK [3][-]{subsubsection.3.1.2}{Secure Boot in IoT Systems}{subsection.3.1}% 6
-\BOOKMARK [2][-]{subsection.3.2}{IPtables}{section.3}% 7
-\BOOKMARK [1][-]{section.4}{Conclusion}{}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Device Level Firewalls}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Linux Iptables and Netfilter}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{IoT Vulnerabilities}{}% 9
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 10

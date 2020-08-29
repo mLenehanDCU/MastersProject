@@ -54,10 +54,38 @@ recognition for the need of a secure boot type mechanism for Internet of Things
 devices, with implementations such as MCUboot in development for a number of
 microcontroller based operating systems such as RIOT and
 Zephyr\cite{juullabs-oss}. There are, however, a number of limitations which
-have to be considered, namely the lack of available storage on these contrained
+have to be considered, namely the lack of available storage on these constrained
 devices. As a workaround for this constraint the boot code can be written to
 non-modifiable ROM, although this could raise issues in the devices future, as
 patches required to the devices firmware to mitigate other vulnerabilities could
 not be implemented\cite{iotSecurityFoundation}.
 
-\subsection{IPtables}
+\subsection{Device Level Firewalls}
+
+Firewalls define rules used for the purpose of allowing or blocking traffic
+entering a system.
+
+\subsection{Linux Iptables and Netfilter}
+
+Iptables is a software package for filtering traffic at the Network Layer
+(layer 3 of the OSI model). This package interacts with the "netfilter" kernel
+hooks, which are five hooks that can be triggered at different stages of packet
+processing. They work by applying a set of rules to incoming or outgoing packets.
+These rules can be pre-applied, i.e. defined by the manufacturer, or user-defined.
+
+Iptables are broken down into a number of layers. The first of these is the
+table. The table is used to separate rules by function. The default tables are
+the "filter" table, the "NAT" table, the "mangle" table, the "raw" table, and
+the "security" table. Tables contain a number of chains, which are associated
+with the five netfilter hooks, and are triggered when a packet invokes a rule.
+
+The built in iptable chains are triggered by each of the five netfilter hooks as
+follows:
+
+\begin{itemize}
+	\item NF\_IP\_PRE\_ROUTING -> PREROUTING
+	\item NF\_IP\_LOCAL\_IN -> INPUT
+	\item NF\_IP\_FORWARD -> FORWARD
+	\item NF\_IP\_LOCAL\_OUT -> OUTPUT
+	\item NF\_IP\_POST\_ROUTING -> POSTROUTING
+\end{itemize}
