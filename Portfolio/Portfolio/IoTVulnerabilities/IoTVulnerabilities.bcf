@@ -2208,11 +2208,12 @@
     <bcf:citekey order="23">awsCve1</bcf:citekey>
     <bcf:citekey order="24">awsCve2</bcf:citekey>
     <bcf:citekey order="25">zepCve</bcf:citekey>
-    <bcf:citekey order="26">zepCVe1</bcf:citekey>
+    <bcf:citekey order="26">zepCve1</bcf:citekey>
     <bcf:citekey order="27">zepCve2</bcf:citekey>
     <bcf:citekey order="28">zep2Git</bcf:citekey>
     <bcf:citekey order="29">zepCve3</bcf:citekey>
     <bcf:citekey order="30">zep3Git</bcf:citekey>
+    <bcf:citekey order="31">furfaro</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -515,6 +515,19 @@
       \verb https://www.cvedetails.com/vulnerability-list/vendor_id-19255/product_id-50119/Zephyrproject-Zephyr.html
       \endverb
     \endentry
+    \entry{zepCve1}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CVE}
+      \field{title}{Vulnerability Details : CVE-2017-14202}
+      \verb{urlraw}
+      \verb https://www.cvedetails.com/cve/CVE-2017-14202/
+      \endverb
+      \verb{url}
+      \verb https://www.cvedetails.com/cve/CVE-2017-14202/
+      \endverb
+    \endentry
     \entry{zepCve2}{misc}{}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
@@ -593,8 +606,45 @@
       \verb https://github.com/zephyrproject-rtos/zephyr/pull/6158
       \endverb
     \endentry
+    \entry{furfaro}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0c8fabba3df10a19591083d4db6fc00d}{%
+           family={Furfaro},
+           familyi={F\bibinitperiod},
+           given={Angelo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=648b82f1555ad0f3d32b83f304cec354}{%
+           family={Pace},
+           familyi={P\bibinitperiod},
+           given={Pasquale},
+           giveni={P\bibinitperiod}}}%
+        {{hash=004e06f7c1c76940b477495d93901ba8}{%
+           family={Parise},
+           familyi={P\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe7aee5aeb2f517a55121f500501e3cd}
+      \strng{fullhash}{fe7aee5aeb2f517a55121f500501e3cd}
+      \strng{bibnamehash}{fe7aee5aeb2f517a55121f500501e3cd}
+      \strng{authorbibnamehash}{fe7aee5aeb2f517a55121f500501e3cd}
+      \strng{authornamehash}{fe7aee5aeb2f517a55121f500501e3cd}
+      \strng{authorfullhash}{fe7aee5aeb2f517a55121f500501e3cd}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Simulation Modelling Practice and Theory}
+      \field{title}{Facing DDoS bandwidth flooding attacks}
+      \field{volume}{98}
+      \field{year}{2020}
+      \field{pages}{101984}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.simpat.2019.101984
+      \endverb
+    \endentry
   \enddatalist
-  \missing{zepCVe1}
 \endrefsection
 \endinput
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.8.2)  30 AUG 2020 09:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.8.2)  30 AUG 2020 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -593,7 +593,29 @@ File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [a4paper12pt].
 
-(./IoTVulnerabilities.aux)
+(./IoTVulnerabilities.aux
+
+./IoTVulnerabilities.aux:146: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 i
+       t}{none/global//global/global}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./IoTVulnerabilities.aux:146: Extra }, or forgotten \endgroup.
+l.146 it}
+         {none/global//global/global}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
@@ -673,30 +695,23 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'IoTVulnerabilities.bbl' found.
  (./IoTVulnerabilities.bbl
-./IoTVulnerabilities.bbl:588: Illegal parameter number in definition of \NewValue.
+./IoTVulnerabilities.bbl:601: Illegal parameter number in definition of \NewValue.
 <to be read again> 
                    6
-l.588 ...quest #6158 · zephyrproject-rtos/zephyr}
+l.601 ...quest #6158 · zephyrproject-rtos/zephyr}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./IoTVulnerabilities.bbl:595: Illegal parameter number in definition of \abx@field@title.
+./IoTVulnerabilities.bbl:608: Illegal parameter number in definition of \abx@field@title.
 <to be read again> 
                    6
-l.595     \endentry
+l.608     \endentry
                    
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                zepCVe1
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
 
 )
 Package biblatex Info: Reference section=0 on input line 55.
@@ -707,7 +722,9 @@ Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 59.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -738,20 +755,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 LaTeX Warning: No \author given.
 
-(./sections/intro.tex) (./sections/iotResources.tex [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/vectors.tex [2]) (./sections/linuxSecurity.tex [3] [4] [5]
+(./sections/intro.tex) (./sections/iotResources.tex [2]) (./sections/vectors.tex [3]) (./sections/linuxSecurity.tex [4] [5] [6]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 86.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) (./sections/iotVulnerabilities.tex [6] [7]
+)) (./sections/iotVulnerabilities.tex [7] [8]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
- [8] [9] [10]
+ [9] [10] [11]
 ./sections/iotVulnerabilities.tex:165: Illegal parameter number in definition of \abx@field@title.
 <to be read again> 
                    6
@@ -761,7 +776,7 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-) (./sections/mitigation.tex) [11]
+) (./sections/mitigation.tex) [12] [13]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 73.
  (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -775,7 +790,7 @@ Overfull \hbox (9.08044pt too wide) in paragraph at lines 74--74
 \T1/cmtt/m/n/10 iotsecurityfoundation . org / best -[] practice -[] guide -[] articles / device -[]
  []
 
-[12
+[14
 
 ]
 ./IoTVulnerabilities.tex:74: Missing $ inserted.
@@ -843,7 +858,7 @@ Overfull \hbox (8.08044pt too wide) in paragraph at lines 74--74
 \T1/cmtt/m/n/10 www . cvedetails . com / vulnerability -[] list / vendor _ id -[] 12126 / product _
  []
 
-[13]
+[15]
 ./IoTVulnerabilities.tex:74: Missing $ inserted.
 <inserted text> 
                 $
@@ -951,29 +966,33 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-[14]
+[16]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (./IoTVulnerabilities.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `IoTVulnerabilities.out' has not changed.
 (rerunfilecheck)             Checksum: CD85C6DA60C7EE06E1E42DC9EA1CEAFA;1807.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'IoTVulnerabilities.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 17296 strings out of 480478
- 285335 string characters out of 5905960
- 971073 words of memory out of 5000000
- 32934 multiletter control sequences out of 15000+600000
+ 17303 strings out of 480478
+ 285531 string characters out of 5905960
+ 971145 words of memory out of 5000000
+ 32937 multiletter control sequences out of 15000+600000
  583610 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,45p,952b,2215s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IoTVulnerabilities.pdf (14 pages, 130049 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on IoTVulnerabilities.pdf (16 pages, 142561 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 357 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

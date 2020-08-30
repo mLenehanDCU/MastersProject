@@ -285,6 +285,12 @@ INPUT ./images/DDoS.png
 INPUT ./images/DDoS.png
 INPUT sections/simulationResults.tex
 INPUT sections/simulationResults.tex
+INPUT images/flDoS.png
+INPUT ./images/flDoS.png
+INPUT ./images/flDoS.png
+INPUT images/flDDoS.png
+INPUT ./images/flDDoS.png
+INPUT ./images/flDDoS.png
 INPUT sections/resources.tex
 INPUT sections/resources.tex
 INPUT sections/reproduce.tex

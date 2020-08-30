@@ -137,6 +137,33 @@
       \verb https://www.cloudflare.com/learning/ddos/ping-icmp-flood-ddos-attack/
       \endverb
     \endentry
+    \entry{mininetWS}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea51724f19001f81b0346363776e49e0}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={Mininet},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea51724f19001f81b0346363776e49e0}
+      \strng{fullhash}{ea51724f19001f81b0346363776e49e0}
+      \strng{bibnamehash}{ea51724f19001f81b0346363776e49e0}
+      \strng{authorbibnamehash}{ea51724f19001f81b0346363776e49e0}
+      \strng{authornamehash}{ea51724f19001f81b0346363776e49e0}
+      \strng{authorfullhash}{ea51724f19001f81b0346363776e49e0}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mininet}
+      \field{title}{Mininet Walkthrough}
+      \verb{urlraw}
+      \verb http://mininet.org/walkthrough/
+      \endverb
+      \verb{url}
+      \verb http://mininet.org/walkthrough/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

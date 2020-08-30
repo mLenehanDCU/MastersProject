@@ -2189,6 +2189,7 @@
     <bcf:citekey order="6">mnov_2018</bcf:citekey>
     <bcf:citekey order="7">cfSynFlood</bcf:citekey>
     <bcf:citekey order="8">cfIcmpFlood</bcf:citekey>
+    <bcf:citekey order="9">mininetWS</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
