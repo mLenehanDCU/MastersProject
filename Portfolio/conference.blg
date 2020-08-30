@@ -1,5 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'conference.blg'
-[140] biber:322> INFO - === Wed Aug 26, 2020, 20:28:19
-[166] Utils.pm:320> ERROR - conference.bcf is malformed, last biblatex run probably failed. Deleted conference.bbl
-[166] Biber.pm:132> INFO - ERRORS: 1
+[127] biber:322> INFO - === Sun Aug 30, 2020, 00:45:34
+[147] Biber.pm:415> INFO - Reading 'conference.bcf'
+[236] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[244] Utils.pm:304> WARN - The file 'conference.bcf' does not contain any citations!
+[254] bbl.pm:652> INFO - Writing 'conference.bbl' with encoding 'UTF-8'
+[255] bbl.pm:755> INFO - Output to conference.bbl
+[255] Biber.pm:128> INFO - WARNINGS: 1
