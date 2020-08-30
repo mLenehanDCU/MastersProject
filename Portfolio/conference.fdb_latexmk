@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber conference"] 1598744733 "conference.bcf" "conference.bbl" "conference" 1598745519
-  "conference.bcf" 1598745517 100743 a96b291ab1ca0953fa1c523218d378db "pdflatex"
+["biber conference"] 1598744733 "conference.bcf" "conference.bbl" "conference" 1598767387
+  "conference.bcf" 1598745521 100743 a96b291ab1ca0953fa1c523218d378db "pdflatex"
   (generated)
   "conference.bbl"
   "conference.blg"
-["pdflatex"] 1598745519 "conference.tex" "conference.pdf" "conference" 1598745519
+["pdflatex"] 1598745519 "conference.tex" "conference.pdf" "conference" 1598767387
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1591545468 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1591545468 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -140,16 +140,16 @@
   "Portfolio/ProjectDesignPlan/designPlan.pdf" 1598470009 135646 be3a735ac3ee0a5ce68bd010c6622bc5 ""
   "Portfolio/ResearchLog/researchLog.pdf" 1598620360 310449 e396e5599baa7a94373bbb879ca4b953 ""
   "Portfolio/Simulation/Simulation.pdf" 1598663062 138450 b4cbd024e908797ca9bca6254f3b19ea ""
-  "conference.aux" 1598745517 1881 ba29ff17ea391a17deffba79b62a41ec "pdflatex"
+  "conference.aux" 1598745521 1881 ba29ff17ea391a17deffba79b62a41ec "pdflatex"
   "conference.bbl" 1598744734 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber conference"
-  "conference.out" 1598745517 249 e257a8538241b93c24efb3ea4dfc222b "pdflatex"
-  "conference.run.xml" 1598745517 2512 0033a3d1291d97f3c36e30646854eb36 "pdflatex"
+  "conference.out" 1598745521 249 e257a8538241b93c24efb3ea4dfc222b "pdflatex"
+  "conference.run.xml" 1598745521 2512 0033a3d1291d97f3c36e30646854eb36 "pdflatex"
   "conference.tex" 1598469618 3181 8ade9e2893c0f5f1fe23e0b03e1c28f5 ""
   "cover/coverpage.pdf" 1598467979 199686 5db30f9218a4b0ae047af2aeef45ac3f ""
   (generated)
   "conference.bcf"
-  "conference.log"
   "conference.run.xml"
-  "conference.out"
-  "conference.pdf"
+  "conference.log"
   "conference.aux"
+  "conference.pdf"
+  "conference.out"

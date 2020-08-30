@@ -1,0 +1,36 @@
+There are a number of ways in which an attacker can gain acces to, or completely
+shut down a device. These are known as attack vectors. Attack vectors in terms
+of the Internet of things can be vulnerabilities due to the encyrption used, the
+transport protocol, or the user authentication. Mohamad Noor et al. breaks the
+IoT network architecture into three layers, the Application Layer, the Network
+Layer, and the Perception Layer\cite{mohamadSec}. The perception layer deals
+with the device hardware. The network layer deals with the protocols used for
+device communications. Finally, the applcation layer deals with the services
+connected to the devices, such as a cloud computing platform. Each layer can be
+linked to one of the aforementioned attack vectors.
+
+\subsection{User Authentication}
+
+User authentication methods within IoT, as shown by the Mirai botnets, is an
+area of clear exposure for devices. Due to the overhead which is associated with
+implementing complex authentication systems, such as the LKA
+protocol\cite{mohamadSec}, the devices manufacturer may choose to forgo these
+implementations in order to reserve resources for the devices critical
+functionality.
+
+At the application layer, Ammar et. al present how Amazon Web Services' (AWS)
+IoT framework provides authentication using the Identity and Acess Management
+service of the AWS cloud computing platform\cite{ammarSec}. AWS IAM is a policy
+based authentication service. Using this service, any IoT device connected to
+the AWS IoT cloud is given access to resources within the cloud based on a
+user-defined access policy.
+
+\subsection{Encryption}
+
+Encryption tends to suffer from the same issues as user authentication
+protocols, in that manufacturers often choose to forgo a more complex
+implementation to reserve devices resources.
+
+\subsection{Communication Protocols}
+
+

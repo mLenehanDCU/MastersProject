@@ -7,4 +7,16 @@ botnet attacks, including the Mirai attack.
 
 The Mirai attack was able to generate a massive 1Tbps of data, and targeted the
 Dyn DNS service provider. It is estimated that over 600,000 devices were
-a part of the Mirai botnet. The Mirai code exploits
+a part of the Mirai botnet. The Mirai code exploits poor user credential
+implementations on a variety of consumer IoT devices. Mirai uses 60 hard-coded
+username and password pairs to gain access to the devices. These credentials are
+a combination between factory-set, and common user-set username and password
+pairs.
+
+The ability for a botnet to grow this large, and to launch such a large scale
+flooding attack leads to the questioning of the security implementations on any
+connected embedded system, and of the other vulnerabilities which may be
+exploited.
+
+The aim of this evaluation is to identify the vulnerable areas of IoT security,
+whether this is user authetication, transport protocol, or encryption based.

@@ -19,9 +19,76 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{ubuntuSecureBoot}{misc}{}
+    \entry{mohamadSec}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cebf2867ef4143438644ae1a609acd81}{%
+           family={Mohamad\bibnamedelima Noor},
+           familyi={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Mardiana\bibnamedelima binti},
+           giveni={M\bibinitperiod\bibinitdelim b\bibinitperiod}}}%
+        {{hash=c9d21423c736bd11e248a33e50155c92}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Wan\bibnamedelima Hasalina},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0673bdf10e2e591b1f017583e9e95e4}
+      \strng{fullhash}{b0673bdf10e2e591b1f017583e9e95e4}
+      \strng{bibnamehash}{b0673bdf10e2e591b1f017583e9e95e4}
+      \strng{authorbibnamehash}{b0673bdf10e2e591b1f017583e9e95e4}
+      \strng{authornamehash}{b0673bdf10e2e591b1f017583e9e95e4}
+      \strng{authorfullhash}{b0673bdf10e2e591b1f017583e9e95e4}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Networks}
+      \field{title}{Current research on Internet of Things (IoT) security: A survey}
+      \verb{doi}
+      \verb 10.1016/j.comnet.2018.11.025
+      \endverb
+    \endentry
+    \entry{ammarSec}{article}{}
+      \name{author}{3}{}{%
+        {{hash=036e0e31ff5a8c7d7269e7e7de5aafc6}{%
+           family={Ammar},
+           familyi={A\bibinitperiod},
+           given={Mahmoud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e122c0be42fa1789aa97202a51bb68c3}{%
+           family={Russello},
+           familyi={R\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f374cd2478ba07c2cfc47045330540d1}{%
+           family={Crispo},
+           familyi={C\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{32b10071d78a8669ec9c3fa3007fb6f4}
+      \strng{fullhash}{32b10071d78a8669ec9c3fa3007fb6f4}
+      \strng{bibnamehash}{32b10071d78a8669ec9c3fa3007fb6f4}
+      \strng{authorbibnamehash}{32b10071d78a8669ec9c3fa3007fb6f4}
+      \strng{authornamehash}{32b10071d78a8669ec9c3fa3007fb6f4}
+      \strng{authorfullhash}{32b10071d78a8669ec9c3fa3007fb6f4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Information Security and Applications}
+      \field{title}{Internet of Things: A survey on the security of IoT frameworks}
+      \field{volume}{38}
+      \field{year}{2018}
+      \field{pages}{8\bibrangedash 27}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.jisa.2017.11.002
+      \endverb
+    \endentry
+    \entry{ubuntuSecureBoot}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Ubuntu Wiki}
       \field{title}{Secure Boot}
@@ -51,8 +118,8 @@
       \strng{authorbibnamehash}{2574aaebc101704d53785eeabfcb9475}
       \strng{authornamehash}{2574aaebc101704d53785eeabfcb9475}
       \strng{authorfullhash}{2574aaebc101704d53785eeabfcb9475}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{journaltitle}{UEFI Secure Boot in Modern Computer Security Solutions}
       \verb{urlraw}
@@ -79,8 +146,8 @@
       \strng{authorbibnamehash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
       \strng{authornamehash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
       \strng{authorfullhash}{42b1a7c5d1b0e5635cc43fbd3a36ffe1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{How}
@@ -106,8 +173,8 @@
       \strng{authorbibnamehash}{8173f3f31fe1735800f478e1461482e0}
       \strng{authornamehash}{8173f3f31fe1735800f478e1461482e0}
       \strng{authorfullhash}{8173f3f31fe1735800f478e1461482e0}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{mcuboot}
@@ -133,8 +200,8 @@
       \strng{authorbibnamehash}{0ee518c3eb6b06bed34288bdef84207d}
       \strng{authornamehash}{0ee518c3eb6b06bed34288bdef84207d}
       \strng{authorfullhash}{0ee518c3eb6b06bed34288bdef84207d}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IoT Security Foundation}
@@ -180,8 +247,8 @@
       \strng{authorbibnamehash}{1af00ea550cc9bb87ffbe90622411d1a}
       \strng{authornamehash}{f02932848597848282ea079d5dddda40}
       \strng{authorfullhash}{1af00ea550cc9bb87ffbe90622411d1a}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Communications Surveys \& Tutorials}
@@ -195,9 +262,42 @@
       \verb 10.1109/comst.2019.2910750
       \endverb
     \endentry
+    \entry{riotDocs}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RIOT Documentation}
+      \field{title}{RIOT in a nutshell}
+      \verb{urlraw}
+      \verb https://doc.riot-os.org/
+      \endverb
+      \verb{url}
+      \verb https://doc.riot-os.org/
+      \endverb
+    \endentry
+    \entry{lenders}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f8559e22adf39447cc13cc7db438c4be}{%
+           family={Lenders},
+           familyi={L\bibinitperiod},
+           given={Martine},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8559e22adf39447cc13cc7db438c4be}
+      \strng{fullhash}{f8559e22adf39447cc13cc7db438c4be}
+      \strng{bibnamehash}{f8559e22adf39447cc13cc7db438c4be}
+      \strng{authorbibnamehash}{f8559e22adf39447cc13cc7db438c4be}
+      \strng{authornamehash}{f8559e22adf39447cc13cc7db438c4be}
+      \strng{authorfullhash}{f8559e22adf39447cc13cc7db438c4be}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analysis and Comparison of Embedded Network Stacks}
+    \endentry
     \entry{cveHome}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{journaltitle}{CVE}
       \field{title}{Common Vulnerabilities and Exposures (CVE)}
@@ -209,8 +309,8 @@
       \endverb
     \endentry
     \entry{nvdCalculator}{misc}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{journaltitle}{NVD}
       \field{title}{Common Vulnerability Scoring System Calculator}
@@ -222,8 +322,8 @@
       \endverb
     \endentry
     \entry{riotCve1}{misc}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{journaltitle}{CVE}
       \field{title}{Vulnerability Details : CVE-2019-16754}
@@ -326,8 +426,8 @@
       \endverb
     \endentry
     \entry{contikiCve2}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{journaltitle}{CVE}
       \field{title}{Vulnerability Details : CVE-2017-7295}
@@ -350,8 +450,8 @@
       \strng{authorbibnamehash}{296e96dc0d51c18dd440a994a23b85e2}
       \strng{authornamehash}{296e96dc0d51c18dd440a994a23b85e2}
       \strng{authorfullhash}{296e96dc0d51c18dd440a994a23b85e2}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Gist}
@@ -364,8 +464,8 @@
       \endverb
     \endentry
     \entry{awsCve}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Amazon Freertos : List of security vulnerabilities}
       \field{title}{Amazon " Freertos : Security Vulnerabilities}
@@ -377,8 +477,8 @@
       \endverb
     \endentry
     \entry{awsCve1}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{journaltitle}{CVE}
       \field{title}{Vulnerability Details : CVE-2018-16526}
@@ -390,8 +490,8 @@
       \endverb
     \endentry
     \entry{awsCve2}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{journaltitle}{CVE}
       \field{title}{Vulnerability Details : CVE-2018-16601}
@@ -480,8 +580,8 @@
       \strng{authornamehash}{0024da6a338e63c7af9a9a7353d61e76}
       \strng{authorfullhash}{0024da6a338e63c7af9a9a7353d61e76}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}

@@ -10,7 +10,47 @@ issues such as improper and encryption authentication methods, open ports, and
 an inability to update flaws in firmware certainly leave these devices
 vulnerable to attack on a large scale.
 
-\subsubsection{Common Vulnerabilities and Exposures}
+\subsection{IoT Operating Systems}
+
+There are a number of commonly used Internet of Things focused operating
+systems, The following sections will look at the known vulnerabilities for four
+of these operating systems, namely RIOT-OS, Contiki-OS, Amazon FreeRTOS, and
+Zephyr OS.
+
+\subsubsection{RIOT-OS}
+
+RIOT is a free, open-source operating system for low power microcontrollers,
+from 8 to 32 bits. The operating systen uses a micro-kernel architecture, with
+very low initial memory usage\cite{riotDocs}. The micro-kernel architecture offers advantages
+such as the availability of third-party modules for functions such as networking
+and encryption. RIOT uses the "GNRC" (generic) network stack, which aimed to
+cater to the low power, low resource availability contraints which are
+associated with Internet of Thigns devices\cite{lenders}.
+
+\subsubsection{Contiki-OS}
+
+Contiki, or "Contiki-NG" is another open-source operating system for low power
+microcontrollers. The operating systems code base is only 100kB, and can have
+memory usage of as low as 10 kB. This operating system focuses primarily on 32
+bit microcontrollers. Contiki-NG aims to implemenet a low-power IPv6 networking
+stack.
+
+\subsubsection{AWS FreeRTOS}
+
+Amazon Web Services FreeRTOS is a real-time operating system for
+microcontrollers, which has the benefit of being closely tied with AWS cloud
+computing platform.
+
+\subsubsection{Zephyr OS}
+
+Zephyr OS is a project by the Linux Foundation which is focused on IoT device
+security. Much like the Linux operating system, Zephyr is uses a monolithic
+architecture. It is intended for constrained resource IoT devices, and supports
+devices which are 32 and 64 bit systems. The security focus of the Zephyr
+project has the benefits of providing systems such as Secure Boot, as discussed
+earlier, and over the air (OTA) update mechanisms.
+
+\subsection{Common Vulnerabilities and Exposures}
 
 CVE, or Common Vulnerabilities and Exposures, is a publicly accessible list of
 cybersecurity vulnerabilities\cite{cveHome}. This list is comprised of reported
@@ -64,7 +104,7 @@ operating systems RIOT, Contiki, Amazon FreeRTOS and Zephyr OS.
 	\end{tabular}
 \end{table}
 
-\subsubsubsection{\textbf{RIOT OS Vulnerabilities}}
+\subsubsection{\textbf{RIOT OS Vulnerabilities}}
 
 The listed RIOT OS vulnerabilities range from medium to high severity. The two
 medium severity vulnerabilities are protocol vulnerabilities. The first of these
@@ -83,7 +123,7 @@ handshake, in which a memory leak occurs when an ACK is received by the device
 as the first packet in the handshake instead of a SYN packet\cite{riotCve3}. This memory leak
 can lead to an exhaustion of memory resources on the device.
 
-\subsubsubsection{\textbf{Contiki-OS}}
+\subsubsection{\textbf{Contiki-OS}}
 
 Both the first and second listed CVE reports for Contiki-OS refer to the same
 Cross-Site Scripting vulnerability in the mqtt.html configuration page. The
@@ -95,7 +135,7 @@ implementation causes a null pointer dereference error, which can be initiated
 via a HTTP POST request, and can cause the host device to crash, causing a denial of
 service\cite{contikiMqtt}.
 
-\subsubsubsection{\textbf{Amazon FreeRTOS}}
+\subsubsection{\textbf{Amazon FreeRTOS}}
 
 There are 11 listed CVE reports for Amazons FreeRTOS\cite{awsCve}, all of which are based on
 vulnerabilities in the operating systems TCP/IP implementation. The higher
@@ -106,7 +146,7 @@ device. The vulnerability described in report CVE-2018-16601\cite{awsCve2} can
 lead to a denial of service. All other listed vulnerabilities are either due to
 buffer overflows or TCP packet parsing error.
 
-\subsubsubsection{\textbf{ZephyrOS}}
+\subsubsection{\textbf{ZephyrOS}}
 
 The listed vulnerabilities for Zephyr OS range from medium to high
 severity\cite{zepCve}. The first of these allows an attacker connected via
@@ -120,6 +160,6 @@ implementation of type checking within the sys\_ring\_bug\_get() and
 sys\_ring\_buf\_put() kernel API calls caused the kernel to spin, which again
 could be used to initiate a denial of service\cite{zep2Git}.
 
-The final report is of high severity\cite{zepCve3}}, and details how a buffer
+The final report is of high severity\cite{zepCve3}, and details how a buffer
 overflow can be initiated due to the kernel getaddrinfo() call, which is used
 during DNS resolution\cite{zep3Git}.

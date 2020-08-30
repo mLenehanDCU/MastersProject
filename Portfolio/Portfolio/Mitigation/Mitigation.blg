@@ -1,9 +1,0 @@
-[0] Config.pm:304> INFO - This is Biber 2.14
-[1] Config.pm:307> INFO - Logfile is 'Mitigation.blg'
-[127] biber:322> INFO - === Sun Aug 23, 2020, 18:02:38
-[150] Biber.pm:415> INFO - Reading 'Mitigation.bcf'
-[256] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[264] Utils.pm:304> WARN - The file 'Mitigation.bcf' does not contain any citations!
-[275] bbl.pm:652> INFO - Writing 'Mitigation.bbl' with encoding 'UTF-8'
-[275] bbl.pm:755> INFO - Output to Mitigation.bbl
-[275] Biber.pm:128> INFO - WARNINGS: 1
