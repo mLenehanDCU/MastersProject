@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.8.2)  30 AUG 2020 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.8.2)  30 AUG 2020 22:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -715,19 +715,19 @@ LaTeX Warning: No \author given.
 (./sections/introduction.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./sections/attackTypes.tex [3]
-<images/SYNAttack.png, id=171, 367.3725pt x 187.70125pt>
+<images/SYNAttack.png, id=167, 367.3725pt x 187.70125pt>
 File: images/SYNAttack.png Graphic file (type png)
 <use images/SYNAttack.png>
 Package pdftex.def Info: images/SYNAttack.png  used on input line 15.
 (pdftex.def)             Requested size: 276.00105pt x 141.02477pt.
  [4 <./images/SYNAttack.png>]
-<images/ICMPFlood.png, id=182, 390.45876pt x 332.24126pt>
+<images/ICMPFlood.png, id=177, 390.45876pt x 332.24126pt>
 File: images/ICMPFlood.png Graphic file (type png)
 <use images/ICMPFlood.png>
 Package pdftex.def Info: images/ICMPFlood.png  used on input line 35.
 (pdftex.def)             Requested size: 276.00105pt x 234.85873pt.
 ) (./sections/dosModel.tex
-<images/DoS.png, id=184, 612.2875pt x 243.91125pt>
+<images/DoS.png, id=179, 612.2875pt x 243.91125pt>
 File: images/DoS.png Graphic file (type png)
 <use images/DoS.png>
 Package pdftex.def Info: images/DoS.png  used on input line 8.
@@ -743,85 +743,110 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 52
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [7]) (./sections/ddosModel.tex [8]
-<images/DDoS.png, id=237, 746.79pt x 510.90875pt>
+<images/DDoS.png, id=233, 746.79pt x 510.90875pt>
 File: images/DDoS.png Graphic file (type png)
 <use images/DDoS.png>
 Package pdftex.def Info: images/DDoS.png  used on input line 11.
 (pdftex.def)             Requested size: 276.00105pt x 188.82278pt.
- [9 <./images/DDoS.png>] [10]) (./sections/simulationResults.tex
-
-LaTeX Warning: Reference `fig:images-dosCli' on page E-11 undefined on input line 9.
-
-[11]
-<images/dosMnCli.png, id=317, 900.36375pt x 283.81032pt>
+ [9 <./images/DDoS.png>] [10] [11]) (./sections/simulationResults.tex
+<images/dosMnCli.png, id=313, 900.36375pt x 283.81032pt>
 File: images/dosMnCli.png Graphic file (type png)
 <use images/dosMnCli.png>
 Package pdftex.def Info: images/dosMnCli.png  used on input line 14.
 (pdftex.def)             Requested size: 276.00105pt x 87.00157pt.
-<images/flDoS.png, id=319, 341.77687pt x 220.57407pt>
+ [12]
+<images/flDoS.png, id=321, 341.77687pt x 220.57407pt>
 File: images/flDoS.png Graphic file (type png)
 <use images/flDoS.png>
 Package pdftex.def Info: images/flDoS.png  used on input line 24.
 (pdftex.def)             Requested size: 276.00105pt x 178.13559pt.
- [12 <./images/dosMnCli.png (PNG copy)> <./images/flDoS.png (PNG copy)>]
-<images/synFloodDosWs.png, id=327, 689.57625pt x 493.0922pt>
+<images/synFloodDosWs.png, id=323, 689.57625pt x 493.0922pt>
 File: images/synFloodDosWs.png Graphic file (type png)
 <use images/synFloodDosWs.png>
 Package pdftex.def Info: images/synFloodDosWs.png  used on input line 42.
 (pdftex.def)             Requested size: 276.00105pt x 197.36128pt.
-<images/synFloodResults.png, id=328, 516.42938pt x 589.4522pt>
+ [13 <./images/dosMnCli.png (PNG copy)> <./images/flDoS.png (PNG copy)>]
+<images/synFloodResults.png, id=331, 516.42938pt x 589.4522pt>
 File: images/synFloodResults.png Graphic file (type png)
 <use images/synFloodResults.png>
 Package pdftex.def Info: images/synFloodResults.png  used on input line 54.
 (pdftex.def)             Requested size: 276.00105pt x 315.03452pt.
- [13 <./images/synFloodDosWS.png (PNG copy)>]
-<images/synFloodDosIOGraph.png, id=335, 623.32875pt x 322.20375pt>
+ [14 <./images/synFloodDosWS.png (PNG copy)>]
+<images/synFloodDosIOGraph.png, id=336, 623.32875pt x 322.20375pt>
 File: images/synFloodDosIOGraph.png Graphic file (type png)
 <use images/synFloodDosIOGraph.png>
 Package pdftex.def Info: images/synFloodDosIOGraph.png  used on input line 67.
 (pdftex.def)             Requested size: 276.00105pt x 142.66978pt.
- [14 <./images/synFloodResults.png (PNG copy)>]
-<images/icmpFloodDoSWs.png, id=342, 879.285pt x 486.31688pt>
+ [15 <./images/synFloodResults.png (PNG copy)>]
+<images/icmpFloodDoSWs.png, id=343, 879.285pt x 486.31688pt>
 File: images/icmpFloodDoSWs.png Graphic file (type png)
 <use images/icmpFloodDoSWs.png>
-Package pdftex.def Info: images/icmpFloodDoSWs.png  used on input line 82.
+Package pdftex.def Info: images/icmpFloodDoSWs.png  used on input line 81.
 (pdftex.def)             Requested size: 276.00105pt x 152.64893pt.
- [15 <./images/synFloodDosIOGraph.png (PNG copy)> <./images/icmpFloodDoSWs.png (PNG copy)>]
-<images/IcmpFloodDosCli.png, id=349, 435.87843pt x 526.21594pt>
+ [16 <./images/synFloodDosIOGraph.png (PNG copy)> <./images/icmpFloodDoSWs.png (PNG copy)>]
+<images/IcmpFloodDosCli.png, id=350, 435.87843pt x 526.21594pt>
 File: images/IcmpFloodDosCli.png Graphic file (type png)
 <use images/IcmpFloodDosCli.png>
-Package pdftex.def Info: images/IcmpFloodDosCli.png  used on input line 94.
+Package pdftex.def Info: images/IcmpFloodDosCli.png  used on input line 93.
 (pdftex.def)             Requested size: 276.00105pt x 333.20396pt.
-<images/icmpFloodDos.png, id=350, 623.32875pt x 322.20375pt>
+<images/icmpFloodDos.png, id=351, 623.32875pt x 322.20375pt>
 File: images/icmpFloodDos.png Graphic file (type png)
 <use images/icmpFloodDos.png>
-Package pdftex.def Info: images/icmpFloodDos.png  used on input line 106.
+Package pdftex.def Info: images/icmpFloodDos.png  used on input line 105.
 (pdftex.def)             Requested size: 276.00105pt x 142.66978pt.
- [16 <./images/IcmpFloodDosCli.png (PNG copy)>]
-<images/icmpDosAcl.png, id=357, 593.96906pt x 91.09032pt>
+ [17 <./images/IcmpFloodDosCli.png (PNG copy)>]
+<images/icmpDosAcl.png, id=358, 593.96906pt x 91.09032pt>
 File: images/icmpDosAcl.png Graphic file (type png)
 <use images/icmpDosAcl.png>
-Package pdftex.def Info: images/icmpDosAcl.png  used on input line 125.
+Package pdftex.def Info: images/icmpDosAcl.png  used on input line 124.
 (pdftex.def)             Requested size: 276.00105pt x 42.32875pt.
-
-
-LaTeX Warning: Reference `' on page E-17 undefined on input line 130.
-
-[17 <./images/icmpFloodDos.png (PNG copy)> <./images/icmpDosAcl.png (PNG copy)>]
-<images/flDDoS.png, id=365, 472.76625pt x 614.295pt>
+<images/icmpBlockDos.png, id=360, 395.22656pt x 481.8pt>
+File: images/icmpBlockDos.png Graphic file (type png)
+<use images/icmpBlockDos.png>
+Package pdftex.def Info: images/icmpBlockDos.png  used on input line 135.
+(pdftex.def)             Requested size: 276.00105pt x 336.46371pt.
+ [18 <./images/icmpFloodDos.png (PNG copy)> <./images/icmpDosAcl.png (PNG copy)>]
+<images/flDDoS.png, id=369, 472.76625pt x 614.295pt>
 File: images/flDDoS.png Graphic file (type png)
 <use images/flDDoS.png>
-Package pdftex.def Info: images/flDDoS.png  used on input line 141.
+Package pdftex.def Info: images/flDDoS.png  used on input line 149.
 (pdftex.def)             Requested size: 276.00105pt x 358.63469pt.
-) (./sections/resources.tex [18 <./images/flDDoS.png (PNG copy)>] [19]) (./sections/reproduce.tex
-
-LaTeX Warning: Reference `' on page E-20 undefined on input line 8.
-
-[20]
-
-LaTeX Warning: Reference `' on page E-21 undefined on input line 37.
-
-[21]) (./sections/future.tex) (./sections/conclusion.tex) [22]
+ [19 <./images/icmpBlockDos.png (PNG copy)>]
+<images/synFloodDDoSWS.png, id=377, 878.53218pt x 494.59781pt>
+File: images/synFloodDDoSWS.png Graphic file (type png)
+<use images/synFloodDDoSWS.png>
+Package pdftex.def Info: images/synFloodDDoSWS.png  used on input line 164.
+(pdftex.def)             Requested size: 276.00105pt x 155.38405pt.
+ [20 <./images/flDDoS.png (PNG copy)>]
+<images/synFloodDDoSCli.png, id=384, 538.26094pt x 702.37407pt>
+File: images/synFloodDDoSCli.png Graphic file (type png)
+<use images/synFloodDDoSCli.png>
+Package pdftex.def Info: images/synFloodDDoSCli.png  used on input line 182.
+(pdftex.def)             Requested size: 276.00105pt x 360.1566pt.
+ [21 <./images/synFloodDDosWS.png (PNG copy)>]
+<images/synFloodDDoSCurl.png, id=393, 372.64218pt x 83.5622pt>
+File: images/synFloodDDoSCurl.png Graphic file (type png)
+<use images/synFloodDDoSCurl.png>
+Package pdftex.def Info: images/synFloodDDoSCurl.png  used on input line 195.
+(pdftex.def)             Requested size: 276.00105pt x 61.89369pt.
+ [22 <./images/synFloodDDosCli.png (PNG copy)>]
+<images/icmpFloodDDoSWs.png, id=400, 877.02657pt x 488.57532pt>
+File: images/icmpFloodDDoSWs.png Graphic file (type png)
+<use images/icmpFloodDDoSWs.png>
+Package pdftex.def Info: images/icmpFloodDDoSWs.png  used on input line 209.
+(pdftex.def)             Requested size: 276.00105pt x 153.75293pt.
+ [23 <./images/synFloodDDoSCurl.png (PNG copy)> <./images/icmpFloodDDoSWs.png (PNG copy)>]
+<images/icmpFloodDDoSCli2.png, id=409, 590.95781pt x 542.77782pt>
+File: images/icmpFloodDDoSCli2.png Graphic file (type png)
+<use images/icmpFloodDDoSCli2.png>
+Package pdftex.def Info: images/icmpFloodDDoSCli2.png  used on input line 227.
+(pdftex.def)             Requested size: 276.00105pt x 253.49887pt.
+<images/icmpFloodDDoSCli.png, id=411, 368.1253pt x 267.24844pt>
+File: images/icmpFloodDDoSCli.png Graphic file (type png)
+<use images/icmpFloodDDoSCli.png>
+Package pdftex.def Info: images/icmpFloodDDoSCli.png  used on input line 240.
+(pdftex.def)             Requested size: 276.00105pt x 200.38283pt.
+ [24 <./images/IcmpFloodDDosCli2.png (PNG copy)>]) (./sections/resources.tex [25 <./images/IcmpFloodDDosCli.png (PNG copy)>]) (./sections/reproduce.tex [26] [27]) (./sections/future.tex [28]) (./sections/conclusion.tex) [29] [30]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 77.
  (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -838,7 +863,7 @@ Overfull \hbox (4.63947pt too wide) in paragraph at lines 78--78
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
-[23
+[31
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
@@ -846,27 +871,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
 Package rerunfilecheck Info: File `Simulation.out' has not changed.
-(rerunfilecheck)             Checksum: 088F18CE30509920FAE69AF2451EBAD4;2217.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 52A4491F57C96A7F48C4EB83DF12A7AC;2137.
 Package logreq Info: Writing requests to 'Simulation.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 18074 strings out of 480478
- 293214 string characters out of 5905960
- 1081835 words of memory out of 5000000
- 33569 multiletter control sequences out of 15000+600000
+ 18158 strings out of 480478
+ 295177 string characters out of 5905960
+ 1075414 words of memory out of 5000000
+ 33627 multiletter control sequences out of 15000+600000
  573503 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,50p,944b,2215s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Simulation.pdf (23 pages, 967776 bytes).
+Output written on Simulation.pdf (31 pages, 1776896 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 438 compressed objects within 5 object streams
- 196 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 554 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

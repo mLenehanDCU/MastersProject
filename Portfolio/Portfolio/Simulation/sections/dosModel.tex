@@ -36,7 +36,7 @@ class MyTopo( Topo ):
 	        # Add links
 	        self.addLink( h1, s1 )
 	        self.addLink( s1, s2 )
-	        self.addLink( s2, h3 )
+	        self.addLink( s2, h3, cls=TCLink, bw=100 )
 	        self.addLink( s2, s3 )
 	        self.addLink( s3, h2 )
 \end{lstlisting}
@@ -64,31 +64,34 @@ This command can be broken down as follows:
 
 \end{itemize}
 
-
-\subsubsection{Mitigation}
-
 \subsection {ICMP Flood DoS Attack}
 
 \subsubsection{Attack}
 
 For the ICMP Flood, the malicious traffic source launches the attack using the
-following "ping" command:
+following "hping" command:
 
 \begin{lstlisting}[language=bash, caption=ICMP Flood DoS Command]
-$ sudo ping -f -l 100000000000000 -s 1500
+$ hping -1 --rand-source --flood <TargetIP>
 \end{lstlisting}
 
 This command can be broken down as follows:
 
 \begin{itemize}
-	\item The -f flag denotes a flood, as such the tool outputs
-		"ECHO\_REQUEST" packets as fast as is possible.
-	\item The -l flag denotes the number of packets to send without waiting
-		for a reply. The value associated with this flag is set to an
-		arbitrarily high number.
-	\item The -s flag denotes the packet size, the value for which can be
-		determined by observing the output of the "ifconfig eth0". For
-		the DoS network, this value was set to 1500 bytes.
+	\item The -1 flag denotes an ICMP echo request packet is to be transmit.
+	\item The --rand-source flag sets the IP address to spoofed values for
+		each packet that is transmit.
+	\item The "--flood" flag sends packets as fast as is possible.
 \end{itemize}
 
-\subsubsection{Mitigation}
+\subsection{Mitigation}
+
+For both the ICMP and SYN Flood in the Denial of Service attacks, the SDN
+implementation in Mininet can be utilised in order to implement Network Access
+Control Lists. These lists allow for a set of rules, much like a firewall, to be
+defined. This can be easily done through the Floodlight controller web-gui.
+These rules allow for a CIDR block to have explicit allow or deny rules for
+certain types of traffic to be allocated. For the purposes of blocking an ICMP
+flood, the attacker's IP address can be blacklisted for ICMP traffic. The same
+is true for the SYN flood, however in this case the IP address will need to be
+blacklisted for TCP traffic.

@@ -67,7 +67,7 @@ class LineTopo( Topo ):
            self.addLink(h8[i], s[7])
 
 	# Add links from target server to s8
-        self.addLink(server[0], s[8])
+        self.addLink(server[0], s[8], cls=TCLink, bw=1000)
 
         # link switches
         for i in range(M-2):
@@ -80,3 +80,18 @@ class LineTopo( Topo ):
 
 topos = { 'mytopo': (lambda: LineTopo() ) }
 \end{lstlisting}
+
+Attacks are implemented as outlined in Section 3, however multiple nodes are
+used for each attack. It was chosen to have all hosts from h11 to h44 to
+participate in the attacks in order to generate a large enough volume of traffic
+to cause a denial of service with a link bandwidth of 1Gbps on the link between
+the server and it's adjacent switch.
+
+In the case of the Distributed Denial of Service attack, no mitigation
+techniques were implemented. The SDN NACL implementation could be implemented by
+blacklisting each of the attacking nodes, however this would lead to a large
+number of rules. Alternatively, utilising CIDR notation, as the attacking nodes
+are sequential, a block could be blacklisted, however this would not have been a
+realistic implementation for this simulation setup. Had individual subnets been
+created for each grouping of 8 hosts, these subnets could have been determined
+to be participating in the attack, and the entire subnet range blacklisted.

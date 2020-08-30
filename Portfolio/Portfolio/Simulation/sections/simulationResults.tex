@@ -6,7 +6,7 @@ section here \cite{mininetWS}, or can be run on one of the Mininet host nodes.
 \subsection{Denial of Service Results}
 
 The Denial of Service network is initiated using the command show in Figure
-\ref{fig:images-dosCli}. The output of running this command shows that all of
+\ref{fig:images-dosMnCli}. The output of running this command shows that all of
 the required nodes and links are successfully created.
 
 \begin{figure}[H]
@@ -31,7 +31,7 @@ begin.
 
 \subsubsection{SYN Flood}
 
-The Wireshark packet analyzer tool is run on the attacking host. The filter
+The Wireshark packet analyser tool is run on the attacking host. The filter
 option used to capture only the outgoing SYN packets from the host is
 'tcp.flag.syn== 1'. This results in the packet capture in Figure
 \ref{fig:images-synFloodDosWs}. The set "SYN" flag can be seen in the packet
@@ -71,11 +71,10 @@ ping connections from the user node.
 
 \subsubsection{ICMP Flood}
 
-The Wireshark packet analyzer tool is run on the attacking host. The filter
-option used to capture only the outgoing SYN packets from the host is
+The Wireshark packet analyser tool is run on the attacking host. The filter
+option used to capture only the outgoing ICMP packets from the host is
 'icmp'. This results in the packet capture in Figure
-\ref{fig:images-icmpFloodDosWs}. The set "SYN" flag can be seen in the packet
-information in the bottom of the window.
+\ref{fig:images-icmpFloodDosWs}.
 
 \begin{figure}[H]
 	\centering
@@ -84,7 +83,7 @@ information in the bottom of the window.
 	\label{fig:images-icmpFloodDosWs}
 \end{figure}
 
-The SYN flood was initiated as discussed, using the hping command listed in
+The ICMP flood was initiated as discussed, using the hping command listed in
 section 3.1.2. Once the flooding attack had been running for a period of time,
 the ping command is used on the user host node, showing 100\% packet loss,
 indicating a denial of service has occurred.
@@ -127,7 +126,16 @@ be blacklisted, as shown in Figure \ref{fig:images-icmpDosAcl}.
 	\label{fig:images-icmpDosAcl}
 \end{figure}
 
-The mitigating effects of this ACL can be seen in Figure \ref{},
+The mitigating effects of this ACL can be seen in Figure
+\ref{fig:images-icmpBlockDos}, in which the attacking node "h1" is having its
+traffic blocked, whereas the user node "h2" is not.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/icmpBlockDos}
+	\caption{NACL Blocking traffic from the attacking node h1}
+	\label{fig:images-icmpBlockDos}
+\end{figure}
 
 \subsection{Distributed Denial of Service}
 
@@ -145,5 +153,94 @@ server node.
 
 \subsubsection{SYN Flood}
 
+The Wireshark packet capture tool is run on the server node. The filter option
+used to capture only the incoming SYN packets from the attacking nodes is
+'tcp.flag.syn== 1'. This results in the packet capture in Figure
+\ref{fig:images-synFloodDDoSWs}. As with the Denial of Service attack, the "SYN"
+flag can be seen in the packet information in the bottom of the window.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/synFloodDDoSWS}
+	\caption{Distributed Denial of Service SYN Flood Captured Packets}
+	\label{fig:images-synFloodDDoSWs}
+\end{figure}
+
+The SYN flood was initiated much like that of the Denial of Service attack,
+however, in this case, the commands were input via the Mininet CLI. The commands
+took the following form:
+
+\begin{lstlisting}[language=bash, caption=Mininet CLI commands for SYN DDoS Attack]
+	<Host Name> hping --flood -S --rand-source <Target Name> &
+\end{lstlisting}
+
+In total, 28 hosts were used to launch the DDoS attack. The commands used can be
+seen below in Figure \ref{fig:images-synFloodDDoSCli}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/synFloodDDoSCli}
+	\caption{Mininet CLI command for SYN DDoS Attack}
+	\label{fig:images-synFloodDDoSCli}
+\end{figure}
+
+Once the flooding attack has been running for a period of time, the curl command
+is used on the user host node, which in this case was arbitrarily chosen as
+"h65". The response of this command was repeated timeout errors, which can be
+seen in Figure \ref{fig:images-synFloodDDoSCurl}, and confirms that a denial of
+service has occurred.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/synFloodDDoSCurl}
+	\caption{Curl timeout due to the exhausted server resources}
+	\label{fig:images-synFloodDDoSCurl}
+\end{figure}
 
 \subsubsection{ICMP Flood}
+
+The Wireshark packet capture tool is run on the server node. The filter option
+used to capture only the incoming ICMP packets from the attacking nodes is
+'icmp'. This results in the packet capture in Figure
+\ref{fig:images-icmpFloodDDoSWs}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/icmpFloodDDoSWs}
+	\caption{Distributed Denial of Service ICMP Flood Captured Packets}
+	\label{fig:images-icmpFloodDDoSWs}
+\end{figure}
+
+The ICMP flood was initiated much like that of the previously described SYN
+flood, however, in this case, the "-1" flag is used to specify that ICMP packets
+must be sent. The commands took the following form:
+
+\begin{lstlisting}[language=bash, caption=Mininet CLI commands for ICMP DDoS Attack]
+	<Host Name> hping --flood -1 --rand-source <Target Name> &
+\end{lstlisting}
+
+In total, 28 hosts were used to launch the DDoS attack. The commands used can be
+seen below in Figure \ref{fig:images-icmpFloodDDoSCli2}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/icmpFloodDDoSCli2}
+	\caption{Mininet CLI command for ICMP DDoS Attack}
+	\label{fig:images-icmpFloodDDoSCli2}
+\end{figure}
+
+Once the flooding attack has been running for a period of time, the ping command
+is used on the user host node, which in this case was arbitrarily chosen as
+"h65". The response of this command was repeated timeout errors, which can be
+seen in Figure \ref{fig:images-icmpFloodDDoSCli}, and confirms that a denial of
+service has occurred.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/icmpFloodDDoSCli}
+	\caption{Ping timeout due to the exhausted server resources}
+	\label{fig:images-icmpFloodDDoSCli}
+\end{figure}
+
+As mentioned in Section 4, no mitigation techniques were introduced during this
+stage of the simulation.

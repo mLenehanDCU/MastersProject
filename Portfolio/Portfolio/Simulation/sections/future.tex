@@ -5,3 +5,21 @@ along with a number of the packages used for sending and monitoring traffic flow
 were required to be installed from the Arch User Repositories (AUR). For
 comparison, Mininet, is available from Ubuntus default "apt" package manager,
 along with all of the other software packages used.
+
+While there was a mitigation technique implemented in the Denial of Service
+simulations, there was no mitigation technique implemented in the Distributed
+Denial of Service simulations. This was due to the relative complexity of
+implementing a technique which could deal with such a large number of hosts. For
+future work building off these simulations, a mitigation technique could be
+implemented in order to test it's effectiveness in lowering the impact
+experienced during a large scale security event such as a DDoS attack.
+
+For the Distributed Denial of Service attack simulations, a total of 64 host
+nodes were implemented, with 28 of these used for the purposes of executing the
+attack. It is reported on the Mininet overview page that up to 4096 hosts have
+been successfully implemented on a single machine, however there is no
+indication given for the level of performance achieved with this number of
+running hosts. During testing there was a significant amount of lag experienced
+on the host PC's operating system while only 28 nodes were running. With a more
+powerful host machine, future work could implement simulations with much larger
+numbers of attacking nodes.
