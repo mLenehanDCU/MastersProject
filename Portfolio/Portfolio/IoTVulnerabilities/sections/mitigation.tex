@@ -20,3 +20,15 @@ attack.
 
 \subsection{Mitigation}
 
+One propsed method of DDoS mitigation is the use of Software Defined Networking
+(SDN). SDN utilizes controllers and API's to configure many aspects of the
+network, including routing decisions. This is extremely useful as it means
+on-the-fly changes can be made to react to changes in incoming packets, as would
+happen with a large scale attack.
+
+Sathyanarayana\cite{sdn} proposes a method known as a Pushback Scheme to defend
+against DDoS attacks. This method allows a router to drop packets from links
+which are deemed to be congesting the network. By communicating this information
+back from the destination, i.e. the target server in a DDoS attack, to each
+router along the path, the source of the traffic will eventually be isolated
+with no packets being routed from it.

@@ -724,6 +724,26 @@
       \verb 10.1016/j.cose.2020.101968
       \endverb
     \endentry
+    \entry{sdn}{article}{}
+      \name{author}{1}{}{%
+        {{hash=69f61b21fd3bb13712b0cef3188400cb}{%
+           family={Sathyanarayana},
+           familyi={S\bibinitperiod},
+           given={Sumanth\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{69f61b21fd3bb13712b0cef3188400cb}
+      \strng{fullhash}{69f61b21fd3bb13712b0cef3188400cb}
+      \strng{bibnamehash}{69f61b21fd3bb13712b0cef3188400cb}
+      \strng{authorbibnamehash}{69f61b21fd3bb13712b0cef3188400cb}
+      \strng{authornamehash}{69f61b21fd3bb13712b0cef3188400cb}
+      \strng{authorfullhash}{69f61b21fd3bb13712b0cef3188400cb}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software Defined Network Defense}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
