@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber IoTVulnerabilities"] 1598837368 "IoTVulnerabilities.bcf" "IoTVulnerabilities.bbl" "IoTVulnerabilities" 1598837760
-  "IoTVulnerabilities.bcf" 1598837566 102501 3594d5b75f2d93012f0c801c181a5409 "pdflatex"
+["biber IoTVulnerabilities"] 1598837368 "IoTVulnerabilities.bcf" "IoTVulnerabilities.bbl" "IoTVulnerabilities" 1598849802
+  "IoTVulnerabilities.bcf" 1598849781 102501 3594d5b75f2d93012f0c801c181a5409 "pdflatex"
   "sources/biblio.bib" 1598836718 6662 6fbac441a96f0b300ae280c3c036df4e ""
   (generated)
   "IoTVulnerabilities.blg"
   "IoTVulnerabilities.bbl"
-["pdflatex"] 1598837760 "IoTVulnerabilities.tex" "IoTVulnerabilities.pdf" "IoTVulnerabilities" 1598837760
+["pdflatex"] 1598849802 "IoTVulnerabilities.tex" "IoTVulnerabilities.pdf" "IoTVulnerabilities" 1598849802
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1591545468 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1591545468 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -147,22 +147,22 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1591545468 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1596388281 4727905 1b81189106e2406a827797a37162c1c0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1596388254 2514046 d33ac97a7aba9e709579e1de77bd2b39 ""
-  "IoTVulnerabilities.aux" 1598837566 10533 f609426e80ac4028fa7a6e20d35e6318 "pdflatex"
+  "IoTVulnerabilities.aux" 1598849781 10349 3eadf7385fce7d3e9348fe0cf508f60a "pdflatex"
   "IoTVulnerabilities.bbl" 1598837369 29716 1cda046429495d647f85d77e46e3c5ef "biber IoTVulnerabilities"
-  "IoTVulnerabilities.out" 1598837566 1807 cd85c6da60c7ee06e1e42dc9ea1ceafa "pdflatex"
-  "IoTVulnerabilities.run.xml" 1598837566 2568 ed6724e546c7f76a063ac52f0f04f74c "pdflatex"
+  "IoTVulnerabilities.out" 1598849781 1734 51a169eb8e4e212b19d4f0c9a0c6683e "pdflatex"
+  "IoTVulnerabilities.run.xml" 1598849781 2568 ed6724e546c7f76a063ac52f0f04f74c "pdflatex"
   "IoTVulnerabilities.tex" 1598830530 1731 6223c7ec1ca135e823d599755dbb74a6 ""
-  "sections/conclusion.tex" 1598837759 633 a6d241f1e7f4b6a929959361172fbe78 ""
-  "sections/intro.tex" 1598829258 1327 087591bdfbf6e89a8b4cb3424e53f556 ""
-  "sections/iotResources.tex" 1598829318 414 fc83e294cf959e1a9fddd8714457cba1 ""
-  "sections/iotVulnerabilities.tex" 1598790821 8091 f160d5ac03105b5673f926e72983b819 ""
-  "sections/linuxSecurity.tex" 1598744505 4844 8dd5d45b18291387e145685744d85262 ""
-  "sections/mitigation.tex" 1598837389 1966 c3cbc75dedf024dfcb1c7d5fbe5a06cc ""
-  "sections/vectors.tex" 1598771991 1851 d118eebdb91fe4729a43e29e4191983d ""
+  "sections/conclusion.tex" 1598837766 633 a6d241f1e7f4b6a929959361172fbe78 ""
+  "sections/intro.tex" 1598849733 1328 51c9ba4433696226eb961bf88fdf5ada ""
+  "sections/iotResources.tex" 1598849738 414 fc83e294cf959e1a9fddd8714457cba1 ""
+  "sections/iotVulnerabilities.tex" 1598849709 8091 d8fe8e7ec108ee7cd3df85771b44724d ""
+  "sections/linuxSecurity.tex" 1598849754 4748 0917e826e96ab7b3f393baec48334943 ""
+  "sections/mitigation.tex" 1598849779 1968 efab0a48b4ca15a6fc073cd298f99f84 ""
+  "sections/vectors.tex" 1598849800 1814 c29e3e4bada22fa388082cf5eb165b04 ""
   (generated)
   "IoTVulnerabilities.out"
   "IoTVulnerabilities.run.xml"
-  "IoTVulnerabilities.pdf"
   "IoTVulnerabilities.bcf"
+  "IoTVulnerabilities.pdf"
   "IoTVulnerabilities.log"
   "IoTVulnerabilities.aux"

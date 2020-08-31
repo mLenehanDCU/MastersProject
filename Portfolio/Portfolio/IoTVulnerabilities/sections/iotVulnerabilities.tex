@@ -20,19 +20,19 @@ Zephyr OS.
 \subsubsection{RIOT-OS}
 
 RIOT is a free, open-source operating system for low power microcontrollers,
-from 8 to 32 bits. The operating systen uses a micro-kernel architecture, with
+from 8 to 32 bits. The operating system uses a micro-kernel architecture, with
 very low initial memory usage\cite{riotDocs}. The micro-kernel architecture offers advantages
 such as the availability of third-party modules for functions such as networking
 and encryption. RIOT uses the "GNRC" (generic) network stack, which aimed to
-cater to the low power, low resource availability contraints which are
-associated with Internet of Thigns devices\cite{lenders}.
+cater to the low power, low resource availability constraints which are
+associated with Internet of Things devices\cite{lenders}.
 
 \subsubsection{Contiki-OS}
 
 Contiki, or "Contiki-NG" is another open-source operating system for low power
 microcontrollers. The operating systems code base is only 100kB, and can have
 memory usage of as low as 10 kB. This operating system focuses primarily on 32
-bit microcontrollers. Contiki-NG aims to implemenet a low-power IPv6 networking
+bit microcontrollers. Contiki-NG aims to implement a low-power IPv6 networking
 stack.
 
 \subsubsection{AWS FreeRTOS}
@@ -111,7 +111,7 @@ medium severity vulnerabilities are protocol vulnerabilities. The first of these
 is an issue with the OS's implementation of the MQTT messaging
 protocol\cite{riotCve1}. Due to
 the implementation, null pointer dereferencing results in a segmentation fault,
-creashing the system\cite{riotMqtt}. The second of these protocol vulnerabilities
+crashing the system\cite{riotMqtt}. The second of these protocol vulnerabilities
 is a TCP parsing error\cite{riotCve2}, whereby the system can be places in an infinite loop while
 attempting to parse a packet with an  unknown option specified, and an option
 length of zero\cite{riotTcp}.
@@ -140,7 +140,7 @@ service\cite{contikiMqtt}.
 There are 11 listed CVE reports for Amazons FreeRTOS\cite{awsCve}, all of which are based on
 vulnerabilities in the operating systems TCP/IP implementation. The higher
 scored medium severity reports are vulnerable to DoS attack and remote code
-execution. Report CVE-2018-16526\cite{awsCve1} outlines how a buffer overflow occuring during
+execution. Report CVE-2018-16526\cite{awsCve1} outlines how a buffer overflow occurring during
 the generation of a checksum can give an attacker access to execute code on the
 device. The vulnerability described in report CVE-2018-16601\cite{awsCve2} can
 lead to a denial of service. All other listed vulnerabilities are either due to
